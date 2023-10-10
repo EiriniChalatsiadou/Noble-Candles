@@ -1,6 +1,20 @@
+/* here goes the html */
+html {
+    height: 105%;
+}
+
+/* here goes the body */
+body {
+    background: url('/media/background-image.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
 /* here goes the footer css code*/
 footer {
-    background-color: #D6DBDF;
+    background-color: #b8bbbc;
     padding: 1em;
     text-align: center;
     width: 100%;
