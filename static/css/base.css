@@ -12,6 +12,27 @@ body {
     opacity: 0.9;
 }
 
+/* nav */
+nav {
+    padding: 3rem;
+}
+
+/* logo */
+#logo {
+    display: inline;
+    font-family: Gabriola, sans;
+    font-style: oblique;
+    color:#080d07;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+#logo a{
+    color:#3f5a36;
+}
+
 /* here goes the footer css code*/
 footer {
     background-color: #b8bbbc;
