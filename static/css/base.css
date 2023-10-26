@@ -5,7 +5,6 @@ html {
 
 /* here goes the body */
 body {
-    background: url('/media/background-image.jpg ');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,7 +19,7 @@ body {
     color:#1c3a16;
     font-size: 50px;
     text-align: center;
-    font-weight: normal;
+    font-weight:bolder;
 }   
 
 
@@ -106,7 +105,7 @@ nav {
     font-size: 30px;
     font-family: Gabriola, sans-serif;
     color: #1c3a16;
-    font-weight: 800;
+    font-weight: 550;
     
 }
  
@@ -142,14 +141,25 @@ nav {
  
 .section-content {
     padding: 125px 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    background: url(/media/background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
- 
+
+.section-content .description-text {
+    margin-bottom: 115px;
+}
+
 .section-content .text {
     color: #1c3a16
 }
  
 .section-content .text h1 {
-    margin-top: 25px;
+    margin-top: 110px;
     color: #1c3a16;
 }
  
@@ -165,12 +175,30 @@ nav {
     margin-top: 45px;
 }
 
+/* image max*/
 .img-max {
     max-width: 500px;
     width:100%;
   }
 
+
+/* about section*/
+  .about-section {
+    line-height: 7rem;
+    font-family: Gabriola, sans-serif;
+  }
+
+
+  /* contact section*/
+  .contact-section {
+    font-family: Gabriola, sans;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
 /* here goes the footer css code*/
+
 footer {
     background-color: #b8bbbc;
     padding: 1em;
