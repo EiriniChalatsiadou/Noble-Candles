@@ -12,7 +12,7 @@
 {% block content %}
 
 <!-- section content -->
-<section class="section-content">
+<section id="home" class="section-content">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 offset-md-2 text">
@@ -31,14 +31,14 @@
         </div>
     </div>
 </section>
-<section>
+<section id="about-us">
     <div class="container">
         <div class="row py-5">
             <div class="col-md-6">
                 <img src="/media/about-us.jpg" class="img-max" alt="our candles">
             </div>
             <div class="col-md-6 about-section">
-                <div class="">
+                <div class="about-us">
                     <h1><b>About</b></h1>
                 </div>
                 <div>We are a small family bussiness with dreams, ideas and a lot of appetite!
@@ -50,9 +50,9 @@
     </div>
 
 </section>
-<section>
+<section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="row py-5">
             <div class="col-md-6">
                 <div class="contact-section">
                     <h2><b>Contact</b></h2>
@@ -74,10 +74,12 @@
                     <p>info@noble_candles.com</p>
                 </div>
             </div>
+            <div id="map" class="col-md-6">
+
+                <h2>Google maps</h2>
+            </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div>MAP</div>
-    </div>
+
 </section>
 {% endblock %}
