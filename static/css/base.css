@@ -83,7 +83,7 @@ nav {
     border-color: #3f5a36;
 }
 
-/* Top menu */
+/* Top menu - navbar */
 
 .navbar {
     background: #444;
@@ -219,12 +219,12 @@ footer {
     font-style: oblique;
 }
 
-
+/* color quick link */
 .color-quick-link {
     color:#1c3a16;
 }
 
-
+/* quick link>a */
 .quick-links>a {
     color:#1c3a16;
     line-height: 30px;
@@ -237,6 +237,12 @@ footer {
     font-size: 1.75rem;
     padding-right: .5rem;
 }
+
+/* newsletter color */
+.mb-0 {
+    color:#1c3a16;
+}
+
 
 /* Mailchimp */
 #mc_embed_signup{
