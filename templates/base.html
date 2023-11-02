@@ -66,7 +66,29 @@
                         <li class="nav-item">
                             <a class="nav-link scroll-link" href="#contact">Contact</a>
                         </li>
+                        <!-- {% if user.is_authenticated %}
+                        <li class="nav-item"><a id="logoutMenu" class="nav-link" href="/accounts/logout"
+                                aria-label="Logout">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item"><a id="loginMenu" class="nav-link" href="/accounts/login"
+                                aria-label="Go to Login section">Login/Register</a>
+                        </li>
+                        {% endif %} -->
                     </ul>
+                    <div>
+                        <ul>
+                    {% if user.is_authenticated %}
+                        <li class="nav-item"><a id="logoutMenu" class="nav-link" href="/accounts/logout"
+                                aria-label="Logout">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item"><a id="loginMenu" class="nav-link" href="/accounts/login"
+                                aria-label="Go to Login section">Login/Register</a>
+                        </li>
+                        {% endif %}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -91,10 +113,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    quick links
+                    <h5 class="color-quick-link"><strong>Quick links</strong></h5>
                     <ul class="list-unstyled text-muted">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/products/">All Products</a></li>
+                        <li  class="quick-links"><a href="/">Home</a></li>
+                        <li  class="quick-links"><a href="/products/">All Products</a></li>
                       </ul>
                 </div>
                 <div class="col-md-4">
@@ -102,7 +124,7 @@
                     <p class="m-0 text-center ">Follow us: </p>
                     <div class="text-center">
                         <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                            aria-label="Link to facebook page"><i class="fab fa-facebook-square fa-lg ms-3 "
+                            aria-label="Link to facebook page"><i class="fab fa-facebook-square fa-lg ms-3"
                                 style="color: #5F8575;"></i></a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener"
                             aria-label="Link to instagram page"><i class="fab fa-instagram-square fa-lg ms-3"
@@ -113,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h5 class=" mb-3"><strong>Newsletter</strong></h5>
+                    <h5 class="mb-0"><strong>Newsletter</strong></h5>
                     <p class="small text-muted mb-0">Sign up to our weekly newsletter!</p>
                     <!-- Mailchimp -->
                     <div id="mc_embed_signup">

@@ -185,7 +185,7 @@ nav {
 .about-section {
     line-height: 35px;
     font-family: Gabriola, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color: #1c3a16;
 }
 
@@ -217,6 +217,47 @@ footer {
     display: block;
     font-size: 15px;
     font-style: oblique;
+}
+
+
+.color-quick-link {
+    color:#1c3a16;
+}
+
+
+.quick-links>a {
+    color:#1c3a16;
+    line-height: 30px;
+    font-size:17px;
+    font-weight: bolder;
+}
+
+.social-icon {
+    color:#1c3a16;
+    font-size: 1.75rem;
+    padding-right: .5rem;
+}
+
+/* Mailchimp */
+#mc_embed_signup{
+    font-family: 'Gabriola',Arial,sans-serif;
+    font-size:20px;  
+    width:100%;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    float: right !important;
+}
+
+#mc_embed_signup #mce-success-response {
+    width: 100%;
+    display: block !important;
+}
+
+.optionalParent {
+    float: right;
+    position: relative;
+    left: 30px;
 }
 
 /* media */
