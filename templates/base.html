@@ -66,29 +66,15 @@
                         <li class="nav-item">
                             <a class="nav-link scroll-link" href="#contact">Contact</a>
                         </li>
-                        <!-- {% if user.is_authenticated %}
-                        <li class="nav-item"><a id="logoutMenu" class="nav-link" href="/accounts/logout"
-                                aria-label="Logout">Logout</a>
-                        </li>
-                        {% else %}
-                        <li class="nav-item"><a id="loginMenu" class="nav-link" href="/accounts/login"
-                                aria-label="Go to Login section">Login/Register</a>
-                        </li>
-                        {% endif %} -->
-                    </ul>
-                    <div>
-                        <ul>
-                    {% if user.is_authenticated %}
-                        <li class="nav-item"><a id="logoutMenu" class="nav-link" href="/accounts/logout"
-                                aria-label="Logout">Logout</a>
+                        {% if user.is_authenticated %}
+                        <li class="nav-item"><a id="logoutMenu" class="nav-link" href="/accounts/logout" aria-label="Logout">Logout</a>
                         </li>
                         {% else %}
                         <li class="nav-item"><a id="loginMenu" class="nav-link" href="/accounts/login"
                                 aria-label="Go to Login section">Login/Register</a>
                         </li>
                         {% endif %}
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </nav>
