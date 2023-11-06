@@ -10,14 +10,14 @@ def all_products(request):
         # 'products': products,
         'products': [
             {
-                'name': 'Eirini',
-                'sku': '1332432423',
-                'category': 'Christmas',
-                'description': '',
-                'price': '',
-                'rating': '',
-                'image_url': '',
-                'image': '',
+                'name': 'Secret Rose',
+                'sku': '1234',
+                'category': 'candles',
+                'description': 'soya wax candle, floral-vetiner-sandalwood',
+                'price': '15,00 euro',
+                'rating': '4,5',
+                'image_url': "/media/products/candle-1.jfif",
+                'image': '1',
             }
         ]
     }
