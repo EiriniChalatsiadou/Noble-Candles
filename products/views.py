@@ -14,7 +14,7 @@ def all_products(request):
                 'sku': '1234',
                 'category': 'candles',
                 'description': 'soya wax candle, floral-vetiner-sandalwood',
-                'price': '15,00 euro',
+                'price': '15,00',
                 'rating': '4,5',
                 'image_url': "/media/products/candle-1.jfif",
                 'image': '1',
