@@ -193,7 +193,7 @@ nav {
 
 .logo-font {
     /* color: #1c3a16; */
-    color: rgb(114, 114, 114);
+    color: rgb(96, 96, 96);
 }
 
 
@@ -298,15 +298,8 @@ footer {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
 
-    .header-container {
-        padding-top: 164px;
+    .products-header-container {
+        padding-top: 162px;
     }
 }
