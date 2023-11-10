@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-eirinichalatsiadou-noble-sxk5dhoifp.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-eirinichalatsiadou-noble-iohvkh9cea.us2.codeanyapp.com']
 
 
 # Application definition
@@ -132,8 +132,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
