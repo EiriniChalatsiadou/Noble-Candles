@@ -1,0 +1,296 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "1110",
+            "name": "Secret Rose",
+            "description": "100% natural soya wax candle floral, vetiner sandalwood",
+            "price": 15.00,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "/media/products/candle-1.jfif",
+            "image": "candle-1.jfif"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "1111",
+            "name": "Bamboo Coconut",
+            "description": "Soy candle hand poured, greenery, pineapple, powder",
+            "price": 16.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "/media/products/candle-2.jfif",
+            "image": "candle-2.jfif"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "1112",
+            "name": "Hazelnut Cream",
+            "description": "Highly fragranced, hazelnut, caramel, vanilla",
+            "price": 15.99,
+            "category": 1,
+            "rating": 4.3,
+            "image_url": "/media/products/candle-3.jfif",
+            "image": "candle-3.jfif"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "1113",
+            "name": "Chai Latte",
+            "description": "Hand pured soya wax",
+            "price": 16.00,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "/media/products/candle-4.jfif",
+            "image": "candle-4.jfif"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "1114",
+            "name": "Vanilla Cocoa Bean",
+            "description": "Vanilla coconut chocolate, burns for up to 45 hours",
+            "price": 17.50,
+            "category": 1,
+            "rating": 4.4,
+            "image_url": "/media/products/candle-5.jfif",
+            "image": "candle-5.jfif"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "1115",
+            "name": "Cedar and Suede",
+            "description": "cedar and Suede from Public goods",
+            "price": 16.50,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "/media/products/candle-6.jfif",
+            "image": "candle-6.jfif"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "1116",
+            "name": "White Musk",
+            "description": "Luxury Candle",
+            "price": 16.00,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "/media/products/candle-7.jfif",
+            "image": "candle-7.jfif"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "1117",
+            "name": "Lavande",
+            "description": "Lavande and Jasmin",
+            "price": 18.00,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "/media/products/candle-8.jfif",
+            "image": "candle-8.jfif"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "1118",
+            "name": "Mysore Sandalwood",
+            "description": "Luxury soy coconut candle",
+            "price": 18.50,
+            "category": 1,
+            "rating": 4.4,
+            "image_url": "/media/products/candle-9.jfif",
+            "image": "candle-9.jfif"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "1119",
+            "name": "Lavender and Eucalyptus",
+            "description": "Lavender, Sandalwood, Eucalyptus, Cinnamon leaf",
+            "price": 16.99,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "/media/products/candle-10.jfif",
+            "image": "candle-10.jfif"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "1120",
+            "name": "Eucalyptus",
+            "description": "Luxury Eucalyptus Planted",
+            "price": 18.00,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "/media/products/candle-11.jfif",
+            "image": "candle-11.jfif"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "1121",
+            "name": "Caramel",
+            "description": "Fabrication Artisanale Francaise",
+            "price": 17.00,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "/media/products/candle-12.jfif",
+            "image": "candle-12.jfif"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "1122",
+            "name": "Salted Caramel Latte",
+            "description": "Salted Caramel",
+            "price": 16.00,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "/media/products/candle-13.jfif",
+            "image": "candle-13.jfif"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "1123",
+            "name": "Merry Christmas Isabella",
+            "description": "Customise Christmas Candle",
+            "price": 20.00,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "/media/products/christmas-candle-1.jfif",
+            "image": "candle-1.jfif"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "1124",
+            "name": "Christmas Pine",
+            "description": "Pine Candle",
+            "price": 23.00,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "/media/products/christmas-candle-2.jfif",
+            "image": "candle-2.jfif"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "1125",
+            "name": "Hot Cocoa and Cozy Cuddles",
+            "description": "Grab a blanket and curl up with your favorite cuddle buddy",
+            "price": 24.99,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "/media/products/christmas-candle-3.jfif",
+            "image": "candle-3.jfif"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "1126",
+            "name": "Christmas Trees",
+            "description": "Pine and Vanilla Candles",
+            "price": 28.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "/media/products/christmas-candle-4.jfif",
+            "image": "candle-4.jfif"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "1127",
+            "name": "Rudolf",
+            "description": "Vanilla Strawberry",
+            "price": 26.00,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "/media/products/christmas-candle-5.jfif",
+            "image": "candle-5.jfif"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "1128",
+            "name": "Marshmallow Hot Cocoa",
+            "description": "Cocoa and Vanilla",
+            "price": 25.00,
+            "category": 2,
+            "rating": 4.3,
+            "image_url": "/media/products/christmas-candle-6.jfif",
+            "image": "candle-6.jfif"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "1129",
+            "name": "Gingerbread Spice",
+            "description": "Ginger and Orange",
+            "price": 27.50,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "/media/products/christmas-candle-7.jfif",
+            "image": "candle-7.jfif"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "1130",
+            "name": "Gingerbread Coockies",
+            "description": "Ginger, Cinnamon",
+            "price": 29.00,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": "/media/products/christmas-candle-8.jfif",
+            "image": "candle-8.jfif"
+        }
+    }
+]
