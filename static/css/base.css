@@ -283,6 +283,11 @@ footer {
     position: relative;
     left: 30px;
 }
+.pd_detail,
+ .products_container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
 
 /* media */
 @media (max-width: 576px) {
