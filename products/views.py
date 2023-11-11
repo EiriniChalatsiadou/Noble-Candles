@@ -16,7 +16,7 @@ def all_products(request):
                            ("Please provide a search term!"))
             return redirect(reverse('products'))
 
-        queries = Q(name__icontains=query) 
+        queries = Q(name__icontains=query)
         queries |= Q(description__icontains=query)
         queries |= Q(category__name__icontains=query)
         products = products.filter(queries)
@@ -38,7 +38,11 @@ def all_products(request):
 
 def product_detail(request, product_id):
 
-    product = get_object_or_404(Product, pk=product_id)
+
+    try:
+        product = get_object_or_404(Product, pk=product_id)
+    except:
+        return render(request, '404.html', {'id': id})
 
     context = {
         'product': product,
