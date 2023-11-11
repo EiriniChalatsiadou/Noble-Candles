@@ -22,7 +22,7 @@ def all_products(request):
 
     context = {
         'products': products,
-        'q' : query
+        'q': query
     }
     return render(request, 'products/products.html', context)
 
