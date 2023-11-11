@@ -289,8 +289,8 @@
             "price": 29.00,
             "category": 2,
             "rating": 4.9,
-            "image_url": "/media/products/christmas-candle-8.jfif",
-            "image": "candle-8.jfif"
+            "image_url": "/media/products/christmas-candle-8.jpg",
+            "image": "candle-8.jpg"
         }
     }
 ]
