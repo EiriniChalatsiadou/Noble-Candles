@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import mimetypes
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -161,3 +162,5 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 media_URL = '/media/'
 media_ROOT = os.path.join(BASE_DIR, 'media')
+
+mimetypes.add_type("text/javascript", ".js", True)

@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.http import Http404
 from django.db.models import Q
 from .models import Product
 
@@ -38,14 +39,17 @@ def all_products(request):
 
 def product_detail(request, product_id):
 
-
     try:
         product = get_object_or_404(Product, pk=product_id)
-    except:
-        return render(request, '404.html', {'id': id})
+    except Http404:
+        return render(request, '404.html')
 
     context = {
         'product': product,
 
     }
     return render(request, 'products/product_detail.html', context)
+
+
+def handler404(request, exception):
+    return render(request, '404.html')
