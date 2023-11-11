@@ -16,9 +16,18 @@ def all_products(request):
                            ("Please provide a search term!"))
             return redirect(reverse('products'))
 
-        queries = Q(name__icontains=query) | Q(
-            description__icontains=query) | Q(category__name__icontains=query)
+        queries = Q(name__icontains=query) 
+        queries |= Q(description__icontains=query)
+        queries |= Q(category__name__icontains=query)
         products = products.filter(queries)
+
+    elif 'category' in request.GET:
+        category = request.GET['category']
+        if not category:
+            messages.error(request,
+                           ("Wrong category!"))
+            return redirect(reverse('products'))
+        products = products.filter(Q(category__name__icontains=category))
 
     context = {
         'products': products,
