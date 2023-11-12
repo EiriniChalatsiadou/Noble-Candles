@@ -311,6 +311,7 @@ footer {
     color: white !important;
 }
 
+ /* product details */ 
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -319,6 +320,13 @@ footer {
 .btn-black:focus {
     background: #222;
     color: white;
+}
+
+ /* cart */
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
 }
 
 /* media */
