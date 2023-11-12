@@ -14,7 +14,7 @@ body {
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     /* mt-4 */
     color: #6c757d;
     /* text-secondary */
@@ -64,11 +64,11 @@ body {
 }
 
 .allauth-form-inner-content a {
-    color: #b8174d;
+    color: #17a2b8;
     /* text-info */
 }
 .header-container{
-    margin-top: 150px;
+    margin-top: 135px;
 }
 
 /* logo */
