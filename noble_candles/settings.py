@@ -14,6 +14,9 @@ from pathlib import Path
 import mimetypes
 import os
 
+if os.path.exists("env.py"):
+    import env
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -83,6 +86,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',  # allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'cart.context.cart_contents'
             ],
             'builtins': [
@@ -157,7 +161,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/

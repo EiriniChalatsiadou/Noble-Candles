@@ -21,8 +21,8 @@
     <link rel="icon" href= "/media/favicon.ico" type="image/x-icon" />
     <!-- {% endblock %}   -->
 
-    <!-- {% block extracss %}
-{% endblock %} -->
+    {% block extra_css %}
+    {% endblock %}
 
 
     {% block corecjs %}
@@ -34,6 +34,7 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c8dffb0544.js" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-eB4THw71Mp7A1SvYwKgpnL2MXJ3OzA"></script>
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="{% static 'js/script.js' %}" rel="stylesheet"></script>
     {% endblock %}
 
