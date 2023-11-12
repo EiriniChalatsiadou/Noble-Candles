@@ -53,6 +53,10 @@ body {
     font-style: oblique;
 }
 
+.cart-icon{
+    font-size: 25px;
+}
+
 /* nav */
 nav {
     padding: 3rem;
@@ -102,7 +106,7 @@ nav {
 }
 
 .navbar-dark .navbar-nav {
-    font-size: 30px;
+    font-size: 28px;
     font-family: Gabriola, sans-serif;
     color: #1c3a16;
     font-weight: 550;
@@ -204,7 +208,6 @@ nav {
     font-family: Gabriola, sans-serif;
     font-size: 25px;
     color: #1c3a16;
-    background: rgb(229, 227, 227);
 }
 
 
