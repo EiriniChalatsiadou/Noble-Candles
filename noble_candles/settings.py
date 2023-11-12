@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     'products',
     'cart',
     'checkout',
+
+    # Other
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -64,6 +67,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'noble_candles.urls'
 
+CRISPY_TEMMPLATE_PACK = 'bootsrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -75,10 +80,14 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'cart.context.cart_contents'
+            ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
             ],
         },
     },
