@@ -3,4 +3,4 @@ Disallow: /accounts/
 Disallow: /bag/
 Disallow: /cart/
 Disallow: /profile/
-Sitemap: https://noblee-candles.herokuapp.com/sitemap.xml
+Sitemap: https://noble-candles.herokuapp.com/sitemap.xml

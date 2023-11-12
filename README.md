@@ -4,26 +4,73 @@
 
 ## Description
 
-This project designed and developed to create a useful experience for the clients of Noble Candles. The users are given the possibility to explore and buy products.
+This project designed and developed to create a useful experience for the users of Noble Candles. The users are given the possibility to explore and buy products.
 All these functionalities can be accessed by any user with an account, considering that the owner have permissions for controlling the data. Noble Candles was developed using Python (Django), HTML, CSS and JavaScript by storing the data in a PostgreSQL database.
 
 ## The Header
 
+At the header, you can find the logo with the name of the site and also the Navbar through that you can have an easy navigation to the site.
+![header](/media/readme/header.png)
+
 ## Homepage
+
+At homepage, the users can find a welcome content with a comment for the users and as a background image our beautiful candles.
+![homepage](/media/readme/homepage.png)
 
 ## About us page
 
+At this page, the user can find a few words for Noble Candles about the shop and who we are.
+![about-us](/media/readme/about-us.png)
+
 ## Contact page
+
+At this section the user can find the contact details, also the Google map that pin to the address.
+![contact]()
 
 ## Products
 
+Here the user can find all the products. There are two categories Candles and Christmas Candles. Also there is a search bar for easy navigation.
+![products](/media/readme/products.png)
+
+## Product Detail
+
+![product-detail](/media/readme/product-detail.png)
+
 ## Login page
+
+At this page,the user can put username and password and log in if authentication is successful.If the user doesn't have an account there is a link to register. User should't be logged in order this page to appear.
+![login]()
 
 ## Register page
 
+User can create an account, by inserting username, password and optionally an email. User should't be logged in order this page to appear.
+![register]()
+
+## 404 page
+
+![404](/media/readme/404.png)
+
 ## Logout page
 
+User can log out. User should be logged in order this page to appear.
+![logout]()
+
+## Cart
+
+![cart](/media/readme/cart.png)
+
+## Payments
+
+![payments](/media/readme/payments.png)
+
+## Checkout
+
+![checkout](/media/readme/checkout.png)
+
 ## Footer
+
+ At the footer, you can find the Quick links, the social media links for Facebook, Instagram and Twitter the copyright for 2023 and the subscribe button for the newsletters .
+![footer](/media/readme/footer.png)
 
 ## Tools used
 
@@ -36,7 +83,7 @@ All these functionalities can be accessed by any user with an account, consideri
 - [Boostrap5](https://getbootstrap.com) - creating responsiveness
 - [LucidChart](https://www.lucidchart.com/pages) - used for creating the Flowchart
 - [Google maps](https://www.google.com) - used for creating the google map fr the contact details
-- [Cloudinary](https://cloudinary.com) - for storing static data
+-
 
 ## Languages Used
 
@@ -91,11 +138,30 @@ PEP8 validator used for validating the python code
 - In manual deploy, select which branch to deploy and click "Deploy Branch"
 - Heroku will start building the app
 - The link to the app can be found at the top of the page by clicking "Open app"
-- The link can be found
+- The fully deployed project can be accessed at [here]()
 
 ## Flowchart
 
 The Flowchart for my program was created using LucidChart and represents how the project works.
+![flowchart](/media/readme/flowchart.png)
+
+## Wireframes
+
+- At the first wireframe you can see the central homepage within three sections the homepage, about and the contact page. At the top is the header with the logo, the Navbar and at the bottom the footer.
+![wireframes](/media/readme/wireframe-homepage.jpg)
+- At this wireframe you can see the products page with the search bar, also the header and the footer.
+![wireframes](/media/readme/wireframe-products.jpg)
+- At the last wireframe you can see the product details page (image and description and the search bar) with the header and the footer too.
+![wireframes](/media/readme/wireframe-product-detail.jpg)
+
+## Facebook
+
+The users here can find the Facebook business page for Noble Candles.
+  The link for facebook can be found [here]()
+
+![facebook](/media/readme/facebook-screenshot-1.png)
+![facebook](/media/readme/facebook-screenshot-2.png)
+![facebook](/media/readme/facebook-screenshot-3.png)
 
 ## Surface
 
@@ -110,6 +176,7 @@ The Flowchart for my program was created using LucidChart and represents how the
 ## Agile Methodology
 
 The project was developed by Agile methodology. The implementation progress was registered by [Jira](https://www.gira.com/en/en/country) The tasks were accomplished, there moved to Jira from to do, to in Progress, Tests and Done lists.
+![jira](/media/readme/jira.png)
 
 ## Credits
 
@@ -121,8 +188,10 @@ The project was developed by Agile methodology. The implementation progress was 
   - [fontawsome](https://fontawesome.com/icons/instagram?f=brands&s=solid) - for the footer
   - [fontawsome](https://fontawesome.com/icons/twitter?f=brands&s=solid) - for the footer
   - [stackoverflow](https://stackoverflow.com)
+  - [freepnging](https://freepngimg.com/png/26408-candles-transparent-background/icon)
   - [w3schools](https://www.w3schools.com)
   - [geeksforgeeks](https://www.geeksforgeeks.org)
+  - [mailchimp](https://mailchimp.com)
   
 ## Acknowledgements
   
