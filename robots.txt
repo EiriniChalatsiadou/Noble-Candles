@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /cart/
+Disallow: /profile/
+Sitemap: https://nails-art.herokuapp.com/sitemap.xml
