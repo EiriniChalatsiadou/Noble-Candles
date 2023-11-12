@@ -30,9 +30,6 @@ def adjust_cart(request, item_id):
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
     cart = request.session.get('cart', {})
 
     if quantity > 0:
