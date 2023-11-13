@@ -9,7 +9,7 @@
             "price": 15.00,
             "category": 1,
             "rating": 4.6,
-            "image_url": "/media/products/candle-1.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-1.jfif",
             "image": "candle-1.jfif"
         }
     },
@@ -23,7 +23,7 @@
             "price": 16.99,
             "category": 1,
             "rating": 4.5,
-            "image_url": "/media/products/candle-2.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-2.jfif",
             "image": "candle-2.jfif"
         }
     },
@@ -37,7 +37,7 @@
             "price": 15.99,
             "category": 1,
             "rating": 4.3,
-            "image_url": "/media/products/candle-3.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-3.jfif",
             "image": "candle-3.jfif"
         }
     },
@@ -51,7 +51,7 @@
             "price": 16.00,
             "category": 1,
             "rating": 4.6,
-            "image_url": "/media/products/candle-4.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-4.jfif",
             "image": "candle-4.jfif"
         }
     },
@@ -65,7 +65,7 @@
             "price": 17.50,
             "category": 1,
             "rating": 4.4,
-            "image_url": "/media/products/candle-5.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-5.jfif",
             "image": "candle-5.jfif"
         }
     },
@@ -79,7 +79,7 @@
             "price": 16.50,
             "category": 1,
             "rating": 4.6,
-            "image_url": "/media/products/candle-6.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-6.jfif",
             "image": "candle-6.jfif"
         }
     },
@@ -93,7 +93,7 @@
             "price": 16.00,
             "category": 1,
             "rating": 4.5,
-            "image_url": "/media/products/candle-7.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-7.jfif",
             "image": "candle-7.jfif"
         }
     },
@@ -107,7 +107,7 @@
             "price": 18.00,
             "category": 1,
             "rating": 4.7,
-            "image_url": "/media/products/candle-8.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-8.jfif",
             "image": "candle-8.jfif"
         }
     },
@@ -121,7 +121,7 @@
             "price": 18.50,
             "category": 1,
             "rating": 4.4,
-            "image_url": "/media/products/candle-9.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-9.jfif",
             "image": "candle-9.jfif"
         }
     },
@@ -135,7 +135,7 @@
             "price": 16.99,
             "category": 1,
             "rating": 4.7,
-            "image_url": "/media/products/candle-10.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-10.jfif",
             "image": "candle-10.jfif"
         }
     },
@@ -149,7 +149,7 @@
             "price": 18.00,
             "category": 1,
             "rating": 4.8,
-            "image_url": "/media/products/candle-11.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-11.jfif",
             "image": "candle-11.jfif"
         }
     },
@@ -163,7 +163,7 @@
             "price": 17.00,
             "category": 1,
             "rating": 4.5,
-            "image_url": "/media/products/candle-12.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-12.jfif",
             "image": "candle-12.jfif"
         }
     },
@@ -177,7 +177,7 @@
             "price": 16.00,
             "category": 1,
             "rating": 4.7,
-            "image_url": "/media/products/candle-13.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-13.jfif",
             "image": "candle-13.jfif"
         }
     },
@@ -191,7 +191,7 @@
             "price": 20.00,
             "category": 2,
             "rating": 4.7,
-            "image_url": "/media/products/christmas-candle-1.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-1.jfif",
             "image": "candle-1.jfif"
         }
     },
@@ -205,7 +205,7 @@
             "price": 23.00,
             "category": 2,
             "rating": 4.6,
-            "image_url": "/media/products/christmas-candle-2.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-2.jfif",
             "image": "candle-2.jfif"
         }
     },
@@ -219,7 +219,7 @@
             "price": 24.99,
             "category": 2,
             "rating": 4.5,
-            "image_url": "/media/products/christmas-candle-3.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-3.jfif",
             "image": "candle-3.jfif"
         }
     },
@@ -233,7 +233,7 @@
             "price": 28.99,
             "category": 2,
             "rating": 4.7,
-            "image_url": "/media/products/christmas-candle-4.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-4.jfif",
             "image": "candle-4.jfif"
         }
     },
@@ -247,7 +247,7 @@
             "price": 26.00,
             "category": 2,
             "rating": 4.5,
-            "image_url": "/media/products/christmas-candle-5.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-5.jfif",
             "image": "candle-5.jfif"
         }
     },
@@ -261,7 +261,7 @@
             "price": 25.00,
             "category": 2,
             "rating": 4.3,
-            "image_url": "/media/products/christmas-candle-6.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-6.jfif",
             "image": "candle-6.jfif"
         }
     },
@@ -275,7 +275,7 @@
             "price": 27.50,
             "category": 2,
             "rating": 4.4,
-            "image_url": "/media/products/christmas-candle-7.jfif",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-7.jfif",
             "image": "candle-7.jfif"
         }
     },
@@ -289,7 +289,7 @@
             "price": 29.00,
             "category": 2,
             "rating": 4.9,
-            "image_url": "/media/products/christmas-candle-8.jpg",
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-8.jpg",
             "image": "candle-8.jpg"
         }
     }
