@@ -8,6 +8,7 @@
 
 This project designed and developed to create a useful experience for the users of Noble Candles. The users are given the possibility to explore and buy products.
 All these functionalities can be accessed by any user with an account, considering that the owner have permissions for controlling the data. Noble Candles was developed using Python (Django), HTML, CSS and JavaScript by storing the data in a PostgreSQL database.
+
 The fully deployed project can be accessed at [here](https://noble-candles-9ccec49c6b91.herokuapp.com/)
 
 ## The Header
