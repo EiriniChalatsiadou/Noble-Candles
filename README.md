@@ -218,7 +218,6 @@ The project was developed by Agile methodology. The implementation progress was 
 ## Testing
 
   The site was tested manually
-  Admin user/pass: canadian14/noblecandles14@M
 
 ## Credits
 
