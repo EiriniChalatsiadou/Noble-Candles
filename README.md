@@ -34,17 +34,18 @@ Here the user can find all the products. There are two categories Candles and Ch
 
 ## Product Detail
 
+At this page the user can click the product that desire, the product details, the Quantity, the price and the description. Also has the choice to keep shopping or add to cart.
 ![product-detail](/media/readme/product-detail.png)
 
 ## Login page
 
 At this page,the user can put username and password and log in if authentication is successful.If the user doesn't have an account there is a link to register. User should't be logged in order this page to appear.
-![login]()
+![login](/media/readme/login.png)
 
 ## Register page
 
-User can create an account, by inserting username, password and optionally an email. User should't be logged in order this page to appear.
-![register]()
+User can create an account, by inserting username, password and an email. User should't be logged in order this page to appear.
+![register](/media/readme/register.png)
 
 ## 404 page
 
@@ -58,7 +59,7 @@ User can log out. User should be logged in order this page to appear.
 
 ## Cart
 
-The user at this page can add products to the cart, there is the Qty, the price and the subtotal. The user can also remove or update from the cart.
+The user at this page can add products to the cart, there is the Qty, the price and the subtotal. The user can also remove or update the cart.
 ![cart](/media/readme/cart.png)
 
 ## Checkout
@@ -87,7 +88,7 @@ This page is working through stripe payments. The owner can see which payments a
 - [Boostrap5](https://getbootstrap.com) - creating responsiveness
 - [LucidChart](https://www.lucidchart.com/pages) - used for creating the Flowchart
 - [Google maps](https://www.google.com) - used for creating the google map fr the contact details
-- [Stripe](https://stripe.com/ie) used for creat the stripe payments
+- [Stripe](https://stripe.com/ie) used for creating the stripe payments
 
 ## Languages Used
 
@@ -106,6 +107,10 @@ This page is working through stripe payments. The owner can see which payments a
 
 - git push : To push all committed changes to the GitHub repository
 
+## Libraries
+
+![libraries](/media/readme/libraries.png)
+
 ## Validators testing
 
 As advised by tutors, I validated Code Institute Python linter, html validator, css validator and Js validator
@@ -114,6 +119,8 @@ HTML No errors were returned when passing through the official W3C validator
 CSS No errors were found when passing through the official validator
 Js No errors were found when passing through the official validator
 PEP8 validator used for validating the python code
+
+## Tests
 
 ## Unfixided bugs
 
@@ -160,8 +167,8 @@ The Flowchart for my program was created using LucidChart and represents how the
 
 ## Facebook
 
-The users here can find the Facebook business page for Noble Candles.
-  The link for facebook can be found [here](https://www.facebook.com/people/Noble-Candles/pfbid02YxDjiW6oejUHAvS7nKjnw6Knabtew1Yri6vocVbd8Kfcbjn97kkSX6AjBX1nkoXvl)
+The users here can find the Facebook business page for Noble Candles. <br>
+The link for facebook can be found [here](https://www.facebook.com/people/Noble-Candles/pfbid02YxDjiW6oejUHAvS7nKjnw6Knabtew1Yri6vocVbd8Kfcbjn97kkSX6AjBX1nkoXvl)
 
 ![facebook](/media/readme/facebook-screenshot-1.png)
 ![facebook](/media/readme/facebook-screenshot-2.png)
@@ -186,7 +193,9 @@ The users here can find the Facebook business page for Noble Candles.
 ## Agile Methodology
 
 The project was developed by Agile methodology. The implementation progress was registered by [Jira](https://www.gira.com/en/en/country) The tasks were accomplished, there moved to Jira from to do, to in Progress, Tests and Done lists.
-![jira](/media/readme/jira.png)
+![jira1](/media/readme/jira1.png)
+![jira2](/media/readme/jira2.png)
+![jira3](/media/readme/jira3.png)
 
 ## Credits
 
