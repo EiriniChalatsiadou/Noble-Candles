@@ -48,6 +48,7 @@ User can create an account, by inserting username, password and optionally an em
 
 ## 404 page
 
+If the user see this 404 page, means that the page not found. The user need to try again.
 ![404](/media/readme/404.png)
 
 ## Logout page
@@ -57,15 +58,18 @@ User can log out. User should be logged in order this page to appear.
 
 ## Cart
 
+The user at this page can add products to the cart, there is the Qty, the price and the subtotal. The user can also remove or update from the cart.
 ![cart](/media/readme/cart.png)
-
-## Payments
-
-![payments](/media/readme/payments.png)
 
 ## Checkout
 
+At this page the user can see all the details about the order, the delivery and the products before complete the order.
 ![checkout](/media/readme/checkout.png)
+
+## Payments
+
+This page is working through stripe payments. The owner can see which payments are succeeded or incomplete.
+![payments](/media/readme/payments.png)
 
 ## Footer
 
@@ -83,7 +87,7 @@ User can log out. User should be logged in order this page to appear.
 - [Boostrap5](https://getbootstrap.com) - creating responsiveness
 - [LucidChart](https://www.lucidchart.com/pages) - used for creating the Flowchart
 - [Google maps](https://www.google.com) - used for creating the google map fr the contact details
--
+- [Stripe](https://stripe.com/ie) used for creat the stripe payments
 
 ## Languages Used
 
@@ -157,7 +161,7 @@ The Flowchart for my program was created using LucidChart and represents how the
 ## Facebook
 
 The users here can find the Facebook business page for Noble Candles.
-  The link for facebook can be found [here]()
+  The link for facebook can be found [here](https://www.facebook.com/people/Noble-Candles/pfbid02YxDjiW6oejUHAvS7nKjnw6Knabtew1Yri6vocVbd8Kfcbjn97kkSX6AjBX1nkoXvl)
 
 ![facebook](/media/readme/facebook-screenshot-1.png)
 ![facebook](/media/readme/facebook-screenshot-2.png)
@@ -166,6 +170,12 @@ The users here can find the Facebook business page for Noble Candles.
 ## Surface
 
 - Color Scheme
+  #1c3a16
+  #3f5a36
+  #b8bbbc
+  #F5F5DC
+  beige
+  #3f5a36
   
 - Fonts The fonts I used for the site are:
 - font-family: Gabriola, fantasy;
@@ -191,7 +201,7 @@ The project was developed by Agile methodology. The implementation progress was 
   - [freepnging](https://freepngimg.com/png/26408-candles-transparent-background/icon)
   - [w3schools](https://www.w3schools.com)
   - [geeksforgeeks](https://www.geeksforgeeks.org)
-  - [mailchimp](https://mailchimp.com)
+  - [mailchimp](https://mailchimp.com) [here]()
   
 ## Acknowledgements
   

@@ -11,6 +11,10 @@ body {
     opacity: 10;
 }
 
+.text-info-color{
+    color:#3F5A36 !important;
+}
+
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -64,7 +68,7 @@ body {
 }
 
 .allauth-form-inner-content a {
-    color: #17a2b8;
+    color: #3F5A36;
     /* text-info */
 }
 .header-container{
