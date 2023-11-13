@@ -50,7 +50,6 @@ def adjust_cart(request, item_id):
 def remove_from_cart(request, item_id):
     """Remove the item from the shopping cart"""
 
-    print('AAAA')
     try:
         product = get_object_or_404(Product, pk=item_id)
         cart = request.session.get('cart', {})

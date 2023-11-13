@@ -13,9 +13,12 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import mimetypes
 import os
+import dj_database_url
 
 if os.path.exists("env.py"):
     import env
+
+development = os.environ.get('DEVELOPMENT', False)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,10 +33,15 @@ SECRET_KEY = os.environ.get(
     'SECRET_KEY', 'django-insecure-mdjv@46b&rf$42oh=k_tn$&unqm_9txn@=(2coih4(_*&@4iy&')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = ['8000-eirinichalatsiadou-noble-iohvkh9cea.us2.codeanyapp.com']
-
+if development:
+    DEBUG = True
+    ALLOWED_HOSTS = [
+        '8000-eirinichalatsiadou-noble-iohvkh9cea.us2.codeanyapp.com']
+else:
+    DEBUG = False
+    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOST')]
 
 # Application definition
 
@@ -122,13 +130,17 @@ WSGI_APPLICATION = 'noble_candles.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if development:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
-}
-
+else:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
