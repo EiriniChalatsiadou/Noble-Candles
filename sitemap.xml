@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/cart/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/1/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/2/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/3/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/4/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/5/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/6/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/7/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/8/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/9/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/10/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/11/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/12/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/13/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/14/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/15/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/16/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/17/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/18/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/19/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/20/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/21/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/signup/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/login/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/cart/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-1.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/?category=candles</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/1/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-2.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/2/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-3.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/3/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-4.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/4/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-5.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/5/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-6.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/6/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-7.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/7/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-8.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/8/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-9.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/9/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-10.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/10/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-11.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/11/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-12.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/12/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/candle-13.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/13/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-1.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/?category=christmas_candles</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/14/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-2.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/15/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-3.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/16/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-4.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/17/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-5.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/18/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-6.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/19/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/christmas-candle-7.jfif</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/20/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/products/21/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/accounts/password/reset/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://noble-candles-9ccec49c6b91.herokuapp.com/media/products/products</loc>
+  <lastmod>2023-11-13T12:37:41+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
