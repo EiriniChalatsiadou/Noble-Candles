@@ -2,6 +2,8 @@
 
 ## FEATURES
 
+![responsive](/media/readme/responsive.png)
+
 ## Description
 
 This project designed and developed to create a useful experience for the users of Noble Candles. The users are given the possibility to explore and buy products.
@@ -25,7 +27,7 @@ At this page, the user can find a few words for Noble Candles about the shop and
 ## Contact page
 
 At this section the user can find the contact details, also the Google map that pin to the address.
-![contact]()
+![contact](/media/readme/contact.png)
 
 ## Products
 
@@ -129,13 +131,8 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 
 - HTML No errors were returned when passing through the official W3C validator
 - CSS No errors were found when passing through the official validator
-- Js No errors were found when passing through the official validator
-
 ![html](/media/readme/validator.html.png)
 ![css](/media/readme/validator-css.png)
-![js](/media/readme/validator-js.png)
-
-## Tests
 
 ## Unfixided bugs
 
