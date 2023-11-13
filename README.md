@@ -188,6 +188,10 @@ The link for facebook can be found [here](https://www.facebook.com/people/Noble-
 ![facebook](/media/readme/facebook-screenshot-2.png)
 ![facebook](/media/readme/facebook-screenshot-3.png)
 
+## E-commerce business model
+
+Apart from Facebook, we use SEO as well to bring customers to our website. For subscribed users we use Mailchimp to send newletters with the latest offers and new products, in order to increase sales.
+
 ## Surface
 
 - Color Scheme
@@ -210,6 +214,10 @@ The project was developed by Agile methodology. The implementation progress was 
 ![jira1](/media/readme/jira1.png)
 ![jira2](/media/readme/jira2.png)
 ![jira3](/media/readme/jira3.png)
+
+## Testing
+
+  The site was tested manually
 
 ## Credits
 
