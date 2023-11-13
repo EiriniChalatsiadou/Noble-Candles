@@ -43,7 +43,7 @@
               
                 <img
                 class="card-img-top img-fluid"
-                src="{{ product.image_url }}"
+                src="{% if product.image_url %}{{ product.image_url }}{% else %}{{ MEDIA_URL }}{{ product.image }}{% endif %}"
                 alt="{{ product.name }}"
               />
             </a>
