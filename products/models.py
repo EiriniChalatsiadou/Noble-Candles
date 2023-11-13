@@ -8,7 +8,7 @@ class Category(models.Model):
     def _str_(self):
         return self.name
 
-    def _get_friendly_name(self):
+    def get_friendly_name(self):
         return self.friendly_name
 
 
