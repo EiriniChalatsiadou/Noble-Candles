@@ -373,10 +373,11 @@ footer {
     left: 30px;
 }
 .pd_detail,
- .products_container{
+ .product-container{
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
 }
+
 
 .btn-black {
     background: black;
