@@ -69,11 +69,15 @@ At this page the user can see all the details about the order, the delivery and 
 
 ## profile page
 
+At this page the user can see the profile page with all the details.
 ![profile](/media/readme/profile.png)
 
 ## product management
 
-![product management](/media/readme/product-management.png)
+If you are logged in as an admin, you can create, delete, update products from the application without need to go to /admin.
+![productmanagement1](/media/readme/product_details_admin.png)
+![productmanagement2](/media/readme/edit_product.png)
+![productmanagement3](/media/readme/add_product.png)
 
 ## Payments
 
@@ -123,10 +127,13 @@ This page is working through stripe payments. The owner can see which payments a
 
 As advised by tutors, I validated Code Institute Python linter, html validator, css validator and Js validator
 
-HTML No errors were returned when passing through the official W3C validator
-CSS No errors were found when passing through the official validator
-Js No errors were found when passing through the official validator
-PEP8 validator used for validating the python code
+- HTML No errors were returned when passing through the official W3C validator
+- CSS No errors were found when passing through the official validator
+- Js No errors were found when passing through the official validator
+
+![html](/media/readme/validator.html.png)
+![css](/media/readme/validator-css.png)
+![js](/media/readme/validator-js.png)
 
 ## Tests
 
@@ -157,7 +164,7 @@ PEP8 validator used for validating the python code
 - In manual deploy, select which branch to deploy and click "Deploy Branch"
 - Heroku will start building the app
 - The link to the app can be found at the top of the page by clicking "Open app"
-- The fully deployed project can be accessed at [here]()
+- The fully deployed project can be accessed at [here](https://noble-candles-9ccec49c6b91.herokuapp.com/)
 
 ## Flowchart
 
@@ -167,11 +174,11 @@ The Flowchart for my program was created using LucidChart and represents how the
 ## Wireframes
 
 - At the first wireframe you can see the central homepage within three sections the homepage, about and the contact page. At the top is the header with the logo, the Navbar and at the bottom the footer.
-![wireframes](/media/readme/wireframe-homepage.jpg)
+![wireframes 1](/media/readme/wireframe-homepage.jpg)
 - At this wireframe you can see the products page with the search bar, also the header and the footer.
-![wireframes](/media/readme/wireframe-products.jpg)
+![wireframes 2](/media/readme/wireframe-products.jpg)
 - At the last wireframe you can see the product details page (image and description and the search bar) with the header and the footer too.
-![wireframes](/media/readme/wireframe-product-detail.jpg)
+![wireframes 3](/media/readme/wireframe-product-detail.jpg)
 
 ## Facebook
 
@@ -185,18 +192,18 @@ The link for facebook can be found [here](https://www.facebook.com/people/Noble-
 ## Surface
 
 - Color Scheme
-  #1c3a16
-  #3f5a36
-  #b8bbbc
-  #F5F5DC
-  beige
-  #3f5a36
+  - #1c3a16
+  - #3f5a36
+  - #b8bbbc
+  - #F5F5DC
+  - beige
+  - #3f5a36
   
 - Fonts The fonts I used for the site are:
-- font-family: Gabriola, fantasy;
-- font-family: Palace script MT reg, sans;
-- font-family: Gabriola, sans-serif
-- font-family: Gabriola, sans;
+  - font-family: Gabriola, fantasy;
+  - font-family: Palace script MT reg, sans;
+  - font-family: Gabriola, sans-serif
+  - font-family: Gabriola, sans;
 
 ## Agile Methodology
 
@@ -218,7 +225,7 @@ The project was developed by Agile methodology. The implementation progress was 
   - [freepnging](https://freepngimg.com/png/26408-candles-transparent-background/icon)
   - [w3schools](https://www.w3schools.com)
   - [geeksforgeeks](https://www.geeksforgeeks.org)
-  - [mailchimp](https://mailchimp.com) [here]()
+  - [mailchimp](https://mailchimp.com) [here](https://us21.admin.mailchimp.com/audience/forms/dashboard)
   
 ## Acknowledgements
   
