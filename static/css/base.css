@@ -71,7 +71,7 @@ body {
     color: #3F5A36;
     /* text-info */
 }
-.header-container{
+.space-top, .auth.header-container{
     margin-top: 135px;
 }
 
@@ -150,6 +150,15 @@ nav {
     color: #F5F5DC;
     background-color: #3f5a36;
     border-color: #3f5a36;
+}
+
+/* profile view */
+.control-group{
+    margin-bottom:10px;
+}
+.controls > input{
+    width: 100%;
+    max-width: 360px;
 }
 
 /* Top menu - navbar */
