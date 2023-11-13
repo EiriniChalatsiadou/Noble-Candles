@@ -37,9 +37,11 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c8dffb0544.js" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-eB4THw71Mp7A1SvYwKgpnL2MXJ3OzA"></script>
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="{% static 'js/script.js' %}" rel="stylesheet"></script>
+    <!-- <script src="{% static 'js/script.js' %}" rel="stylesheet"></script> -->
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_5FkMHXWhTUoL4zAOOCZA2WdsSgLxpkM&callback=console.debug&libraries=maps,marker&v=beta">
+            </script>
     {% endblock %}
 
     {% block extrajs %}
