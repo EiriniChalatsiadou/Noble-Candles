@@ -36,8 +36,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 if development:
     DEBUG = True
-    ALLOWED_HOSTS = [
-        '8000-eirinichalatsiadou-noble-iohvkh9cea.us2.codeanyapp.com']
+    ALLOWED_HOSTS = ['8000-eirinichalatsiadou-noble-bca1vkp15p.us2.codeanyapp.com']
 else:
     DEBUG = False
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOST')]
