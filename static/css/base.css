@@ -11,8 +11,8 @@ body {
     opacity: 10;
 }
 
-.text-info-color{
-    color:#3F5A36 !important;
+.text-info-color {
+    color: #3F5A36 !important;
 }
 
 /* Allauth form formatting */
@@ -71,7 +71,9 @@ body {
     color: #3F5A36;
     /* text-info */
 }
-.space-top, .auth.header-container{
+
+.space-top,
+.auth.header-container {
     margin-top: 135px;
 }
 
@@ -81,7 +83,7 @@ body {
     font-family: Gabriola, fantasy;
     font-style: oblique;
     color: #1c3a16;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     font-weight: bolder;
 }
@@ -95,7 +97,7 @@ body {
 .main-menu ul li {
     display: inline;
     font-family: Palace script MT reg, sans;
-    font-size: 50px;
+    font-size: 2rem;
     text-align: center;
     font-weight: normal;
 }
@@ -117,8 +119,8 @@ body {
     font-style: oblique;
 }
 
-.cart-icon{
-    font-size: 25px;
+.cart-icon {
+    font-size: 1.2rem;
 }
 
 /* nav */
@@ -153,10 +155,11 @@ nav {
 }
 
 /* profile view */
-.control-group{
-    margin-bottom:10px;
+.control-group {
+    margin-bottom: 10px;
 }
-.controls > input{
+
+.controls>input {
     width: 100%;
     max-width: 360px;
 }
@@ -174,12 +177,11 @@ nav {
 }
 
 .navbar.navbar-no-bg {
-    background: #444;
-    background: rgba(0, 0, 0, 0.2);
+    background: #b8bbbc
 }
 
 .navbar-dark .navbar-nav {
-    font-size: 28px;
+    font-size: 1.2rem;
     font-family: Gabriola, sans-serif;
     color: #1c3a16;
     font-weight: 550;
@@ -218,6 +220,7 @@ nav {
 gmp-map {
     height: 100%;
 }
+
 /* section content */
 
 .section-content {
@@ -295,8 +298,9 @@ gmp-map {
     line-height: 24px;
     font-weight: bold;
 }
-#contact{
-    padding-bottom:200px
+
+#contact {
+    padding-bottom: 200px
 }
 
 @media (max-width: 768px) {
@@ -317,45 +321,41 @@ footer {
     padding: 1em;
     text-align: center;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
     z-index: 6;
     display: block;
     font-size: 15px;
-    font-style: oblique;
 }
 
 /* color quick link */
 .color-quick-link {
-    color:#1c3a16;
+    color: #1c3a16;
 }
 
 /* quick link>a */
 .quick-links>a {
-    color:#1c3a16;
+    color: #1c3a16;
     line-height: 30px;
-    font-size:17px;
+    font-size: 17px;
     font-weight: bolder;
 }
 
 .social-icon {
-    color:#1c3a16;
+    color: #1c3a16;
     font-size: 1.75rem;
     padding-right: .5rem;
 }
 
 /* newsletter color */
 .mb-0 {
-    color:#1c3a16;
+    color: #1c3a16;
 }
 
 
 /* Mailchimp */
-#mc_embed_signup{
-    font-family: 'Gabriola',Arial,sans-serif;
-    font-size:20px;  
-    width:100%;
+#mc_embed_signup {
+    font-family: 'Gabriola', Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
 }
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
@@ -372,8 +372,9 @@ footer {
     position: relative;
     left: 30px;
 }
+
 .pd_detail,
- .product-container{
+.product-container {
     margin-top: 60px;
     margin-bottom: 250px;
 }
@@ -398,7 +399,7 @@ footer {
     color: white !important;
 }
 
- /* product details */ 
+/* product details */
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -409,19 +410,13 @@ footer {
     color: white;
 }
 
- /* cart */
+/* cart */
 .btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
 
-/* media */
-@media (max-width: 576px) {
-    #logo {
-        font-size: 50px;
-    }
-}
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
