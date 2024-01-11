@@ -432,3 +432,11 @@ footer {
         padding-top: 162px;
     }
 }
+
+/* fixed top navbar only on small */
+@media (max-width: 991px) {
+
+    .products-header-container {
+        padding-top: 100px;
+    }
+}
