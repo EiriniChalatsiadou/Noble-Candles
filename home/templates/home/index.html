@@ -54,9 +54,9 @@
 <section id="contact">
     <div class="container">
         <div class="row py-5">
-            <div class="col-md-6">
+            <div class="col-lg-4">
                 <div class="contact-section">
-                    <h2><b>Contact</b></h2>
+                    <h2><b>Our Location</b></h2>
                 </div>
                 <div>
                     <h4><b>Address</b></h4>
@@ -75,7 +75,23 @@
                     <p>info@noble_candles.com</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-4">
+                <div class="contact-section">
+                    <h2><b>Contact Us</b></h2>
+                        <!-- Contact form -->
+                        <form class="mx-auto" action="{% url 'home' %}" method="POST">
+                        
+                            {% csrf_token %}
+                            {{form|crispy}}
+                        
+                            <div>
+                                <button type="submit" class="btn btn-lg btn-primary  ">Send</button>
+                            </div>
+                        
+                        </form>
+                </div>
+            </div>
+            <div class="col-lg-4">
                 <gmp-map center="53.348594665527344,-6.2338032722473145" zoom="14" map-id="DEMO_MAP_ID">
                     <gmp-advanced-marker position="53.348594665527344,-6.2338032722473145" title="Noble Candle Store location">
                     </gmp-advanced-marker>
