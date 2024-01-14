@@ -417,6 +417,23 @@ footer {
     cursor: pointer;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.messages-header-container ul{
+ list-style-type: none;
+}
+
+.messages-header-container tbody tr a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.messages-header-container tbody tr:hover {
+    background-color: #f0f0f0; 
+}
+
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -438,5 +455,28 @@ footer {
 
     .products-header-container {
         padding-top: 100px;
+    }
+}
+
+/* only on large and up */
+@media (min-width: 992px) {
+
+    .messages-header-container {
+        padding-top: 142px;
+    }
+}
+
+/* for small and medium screens */
+@media (min-width: 576px) and (max-width: 991px) {
+    .messages-header-container {
+        padding-top: 105px;
+    }
+}
+
+/* fixed top navbar only on xs */
+@media (max-width: 576px) {
+
+    .messages-header-container {
+        padding-top: 120px;
     }
 }
