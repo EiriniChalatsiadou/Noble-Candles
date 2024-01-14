@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid blogpost-header-container">
+    <div class="row">
+        <div class="col-12 col-lg-6 offset-lg-3 my-auto py-1 py-lg-0">
+            <h2 class="text-center">Our Recent News</h2>
+            {% if published_blogposts %}
+                    {% for post in published_blogposts %}
+                        {{post.title}}
+                    {% endfor %}
+            {% else %}
+            <p class="text-center">Stay tuned! More news posts are coming shortly!</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -461,23 +461,21 @@ footer {
 
 /* only on large and up */
 @media (min-width: 992px) {
-
-    .messages-header-container {
+    .blogpost-header-container, .messages-header-container {
         padding-top: 142px;
     }
 }
 
 /* for small and medium screens */
 @media (min-width: 576px) and (max-width: 991px) {
-    .messages-header-container {
+    .blogpost-header-container, .messages-header-container {
         padding-top: 105px;
     }
 }
 
 /* fixed top navbar only on xs */
 @media (max-width: 576px) {
-
-    .messages-header-container {
+    .blogpost-header-container, .messages-header-container {
         padding-top: 120px;
     }
 }
