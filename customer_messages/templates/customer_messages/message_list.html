@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Customer Messages</h2>
+<ul>
+    {% for message in object_list %}
+    <a href="{% url 'message-delete' pk=message.pk %}"></a>
+    <li class="bi bi-trash">
+        {{ message.subject }} from {{ message.email }}
+    </li></a>
+    {% endfor %}
+</ul>
+{% endblock %}
