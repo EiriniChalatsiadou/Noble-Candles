@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid messages-header-container">
+    <div class="row mb-3">
+        <div class="col-12 col-lg-6 offset-lg-3 my-auto py-1 py-lg-0">
+            <h2 class="text-center">Customer Message Details</h2>
+            <ul>
+                <li><strong>Date Received:</strong> {{ message.date_received }}</li>
+                <li><strong>Name:</strong> {{ message.name }}</li>
+                <li><strong>Email:</strong> {{ message.email }}</li>
+                <li><strong>Subject:</strong> {{ message.subject }}</li>
+                <li><strong>Message:</strong> {{ message.message }}</li>
+            </ul>
+            <a href="{% url 'customer_messages' %}" class="btn btn-primary">
+                <i class="bi bi-arrow-left"></i> Back to Messages
+            </a>
+            <a href="{% url 'message_delete' message_id=message.id %}" class="btn btn-primary"><i class="bi bi-trash"></i></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

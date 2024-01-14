@@ -1,40 +1,37 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
 <div class="container-fluid messages-header-container">
-    <div class="row">
-        <div class="col-12 col-lg-6 offset-lg-3 my-auto py-1 py-lg-0">
-            <h2 class="text-center">Customer Messages</h2>
-            {% if messages %}
-            <table class="table">
-        <thead>
-            <tr>
-                <th></th> <!-- Empty cell for the trash bin icon -->
-                <th>Date</th>
-                <th>From Email</th>
-                <th>Subject</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for message in messages %}
-                <tr>
-                    <td><a href="{% url 'message-delete' message_id=message.id %}"><i class="bi bi-trash"></i></a></td>
-                    
-                    <td><a href="#">{{ message.date_received }}</a></td>
-                    <td><a href="#">{{ message.email }}</a></td>
-                    <td><a href="#">{{ message.subject }}</a></td>
-                    
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-
-            </ul>
-            {% else %}
-            <p>No messages exist.</p>
-            {% endif %}
-        </div>
-    </div>
+   <div class="row">
+      <div class="col-12 col-lg-6 offset-lg-3 my-auto py-1 py-lg-0">
+         <h2 class="text-center">Customer Messages</h2>
+         {% if messages %}
+         <table class="table">
+            <thead>
+               <tr>
+                  <th></th>
+                  <!-- Empty cell for the trash bin icon -->
+                  <th>Date</th>
+                  <th>From Email</th>
+                  <th>Subject</th>
+               </tr>
+            </thead>
+            <tbody>
+               {% for message in messages %}
+               <tr>
+                  <td><a href="{% url 'message_delete' message_id=message.id %}"><i class="bi bi-trash"></i></a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.date_received }}</a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.email }}</a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.subject }}</a></td>
+               </tr>
+               {% endfor %}
+            </tbody>
+         </table>
+         </ul>
+         {% else %}
+         <p>No messages exist.</p>
+         {% endif %}
+      </div>
+   </div>
 </div>
 {% endblock %}
