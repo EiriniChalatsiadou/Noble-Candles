@@ -13,6 +13,7 @@ class BlogPost(models.Model):
     date_created = models.DateTimeField(default=timezone.now)
     date_updated = models.DateTimeField(default=timezone.now)
     published = models.BooleanField(default=False)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     objects = BlogPostManager()
 

@@ -1,0 +1,41 @@
+[
+    {
+        "model": "blog.blogpost",
+        "pk": 1,
+        "fields": {
+            "title": "New arrival! Secret Rose",
+            "content": "<p>Introducing Secret Rose, an enchanting candle that captivates the senses with its alluring blend of scents. Crafted from 100% natural soya wax, this candle is a testament to purity and eco-consciousness. Immerse yourself in the delicate embrace of floral notes that gracefully unfold, revealing the timeless allure of the rose.</p> <p>The essence of Secret Rose is further elevated by the harmonious fusion of vetiver and sandalwood. Vetiver adds an earthy and grounding touch, creating a sense of balance, while the warm and woody aroma of sandalwood envelops you in a comforting embrace. Together, these notes create a symphony of fragrance that transforms any space into a sanctuary of tranquility and elegance.</p> <p>Indulge in the subtle dance of nature's finest elements, as Secret Rose takes you on a sensory journey. Whether you seek relaxation, ambiance, or a touch of luxury, let the flickering flame of this candle illuminate your moments with sophistication and the sweet secrecy of blooming roses. Illuminate your space, and let Secret Rose whisper its timeless tale.</p>",
+            "date_created": "2023-01-01T12:00:00Z",
+            "date_updated": "2023-03-01T12:00:00Z",
+            "published": true,
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-1.jfif",
+            "author": 1
+        }
+    },
+    {
+        "model": "blog.blogpost",
+        "pk": 2,
+        "fields": {
+            "title": "Bamboo Coconut is the best!!!",
+            "content": "<p>Introducing Bamboo Coconut, a soy candle hand-poured to perfection. Immerse yourself in the refreshing essence of greenery, as the delicate notes of bamboo create a tranquil atmosphere. The tropical allure of pineapple adds a touch of sweetness, balancing the overall fragrance with a burst of exotic flavor.</p> <p>Experience the subtlety of powder, harmonizing seamlessly with the natural soy wax. This hand-poured candle is a celebration of craftsmanship, offering a sensory journey that transcends the ordinary. Let Bamboo Coconut transport you to a tropical oasis, where the soothing ambiance and enchanting aroma create moments of pure bliss.</p> <p>Indulge in the allure of nature's finest elements with Bamboo Coconut. Whether you seek relaxation, rejuvenation, or a touch of the tropics, let the flickering flame of this candle elevate your space with sophistication and the soothing blend of bamboo and coconut. Illuminate your surroundings, and let Bamboo Coconut weave its exotic tale.</p>",
+            "date_created": "2024-01-02T12:00:00Z",
+            "date_updated": "2024-01-03T12:00:00Z",
+            "published": true,
+            "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-2.jfif",
+            "author": 1
+        }
+    },
+    {
+        "model": "blog.blogpost",
+        "pk": 3,
+        "fields": {
+            "title": "NOT PUBLISHED Sample Post 3",
+            "content": "This is the content of the third sample post.",
+            "date_created": "2023-01-03T12:00:00Z",
+            "date_updated": "2023-01-03T12:00:00Z",
+            "published": false,
+            "image_url": null,
+            "author": 1
+        }
+    }
+]
