@@ -1,18 +1,28 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<div class="container-fluid blogpost-header-container">
-    <div class="row">
-        <div class="col-12 col-lg-6 offset-lg-3 my-auto py-1 py-lg-0">
-            <h2 class="text-center">Our Recent News</h2>
-            {% if published_blogposts %}
-                    {% for post in published_blogposts %}
-                        {{post.title}}
-                    {% endfor %}
-            {% else %}
-            <p class="text-center">Stay tuned! More news posts are coming shortly!</p>
-            {% endif %}
-        </div>
+ <div class="container blogpost-header-container">
+        <h1 class="mt-4 mb-4">Our Latest News</h1>
+
+        {% if published_blogposts %}
+            <div class="row">
+                {% for post in published_blogposts %}
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            {% if post.image_url %}
+                                <img src="{{ post.image_url }}" class="card-img-top" alt="{{ post.title }}" style="max-height: 200px; width: 100%; object-fit: cover;">
+                            {% endif %}
+                            <div class="card-body">
+                                <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.content|truncatewords:20|safe }}</p>
+                                <p class="card-text"><small class="text-muted">Published on: <b> {{ post.date_updated|date:"F j, Y" }} </b> by <b>{{ post.author.username }}</b></small></p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No blog posts available.</p>
+        {% endif %}
     </div>
-</div>
 {% endblock %}
