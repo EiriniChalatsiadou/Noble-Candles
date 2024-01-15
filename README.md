@@ -35,6 +35,23 @@ At this page, the user can find a few words for Noble Candles about the shop and
 At this section the user can find the contact details, also the Google map that pin to the address.
 ![contact](/media/readme/contact.png)
 
+## Contact form - Customer messages
+
+At this section the Contact form make it simple for a customer to contact you if they need support or more information about your services.
+![contact-form](/media/readme/messages/contact-form.png)
+![contact-form](/media/readme/messages/customer-messages-1.png)
+![contact-form](/media/readme/messages/customer-messages-2.png)
+![contact-form](/media/readme/messages/customer-messages-3.png)
+![contact-form](/media/readme/messages/customer-messages-4.png)
+![contact-form](/media/readme/messages/customer-messages-5.png)
+![contact-form](/media/readme/messages/customer-messages-6.png)
+
+## Blog page
+
+At this section the user can find articles and news for the site and the products.
+![blog](/media/readme/blog/blog-1.png)
+![blog](/media/readme/blog/blog-2.png)
+
 ## Products
 
 Here the user can find all the products. There are two categories Candles and Christmas Candles. Also there is a search bar for easy navigation.
@@ -139,10 +156,210 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 - CSS No errors were found when passing through the official validator
 ![html](/media/readme/validator.html.png)
 ![css](/media/readme/validator-css.png)
+- JShint No errors were found when passing through the official validator
+![js](/media/readme/validator-js.png)
+- Python No errors were found when passing through the official validator using pycodestyle. Due to pep8online.com still not being online,
+  I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle --first <-appname->"
+  which I took it from the suggestion in the [documentation](https://pycodestyle.pycqa.org/en/latest/intro.html#features)
+![python](/media/readme/validator-python.png)
 
-## Unfixided bugs
+## Manual Testing
+
+#### **1 - Deployment & Set up:**
+
+|passed | **Access in a live url** I can use the site on any device.
+|:---:|:---|
+|&check;| Access the site via the deployed URL on the desktop.
+|&check;| Access the site via the deployed URL on mobile.
+|&check;| Access the site via the deployed URL on a tablet.
+|&check;| All images and styles are as expected.
+
+#### **2 - Viewing & Navigation:**
+
+|passed | .**Clearly identity the site upon visiting** also **if the site is what I am looking for.**
+|:---:|:---|
+|&check;| The site is easy to navigate.
+
+|passed | **View the list of products** so that I can **select some to add to the cart.**
+|:---:|:---|
+|&check;| The site has a list of products.
+|&check;| The product list is ordered by default by ID.
+|&check;| You can add to the cart a product in the product page direct.
+|&check;| The list of products can be found by name ascending and descending.
+|&check;| The list of products can be filtered by category.
+|&check;| Add to cart button works as expected on all products & product details pages.
+|&check;| Users can add more than one items to their cart.
+
+|passed | **Individual product details** so that I can **identify the name of the product, price, description, rating and product image enabling me to compare how the product differs from other items.**
+|:---:|:---|
+|&check;| The site has a product details page.
+|&check;| The product details page shows the product image.
+|&check;| The product details page shows the product name.
+|&check;| The product details page shows the description of the product.
+|&check;| The product details page shows the product price.
+|&check;| The product details page shows the rating of the product.
+|&check;| The product details page shows the product description.
+|&check;| The product details page shows the product rating.
+|&check;| The product details page shows the product reviews.
+|&check;| The product details page shows the product quantity button.
+|&check;| The product details page shows the product add to cart button.
+|&check;| The product details page has a search bar for easiest navigation for the products.
+
+|passed | **If something goes wrong on the site** fix any errors and continue with my purchase.
+|:---:|:---|
+|&check;| The site has a 404 page active when the URL is unknown.
+|&check;| The site has a 500-page active when server error.
+|&check;| Relevant feedback is displayed as a toast message when the user cannot act.
+
+|passed | **View the total of my purchases** also view how much I am spending at any time in my order.
+|:---:|:---|
+|&check;| The site has a cart page.
+|&check;| The cart preview shows the product image.
+|&check;| The cart preview shows the product name.
+|&check;| The cart preview shows the product price.
+|&check;| The cart preview shows the current quantity in the cart.
+|&check;| Cart preview shows when the product is added from any page.
+|&check;| The cart page shows the product quantity, and the users can update their order quantity.
+|&check;| The cart page/preview shows the cart total.
+|&check;| The cart page shows the delivery cost and grand total.
+|&check;| The cart page allows the users to completely remove an item from their cart and updates the cart total.
+|&check;| When the quantity is updated in the user's cart, the cart total updates accurately.
+
+|passed | **Contact with the owner** to ask questions about the products or the site.
+|:---:|:---|
+|&check;| The site has a contact page.
+|&check;| Contact form cannot be submitted with required fields blank.
+|&check;| Contact form cannot be presented with an invalid email address.
+|&check;| Contact form submits a message to the database.
+|&check;| Message can be read from the admin.
+|&check;| Success message is shown to the user when a message is submitted.
+|&check;| Message can be updated as done.
+|&check;| Message can be deleted.
+
+|passed | **Blog** to check out news and articles of the products or the site.
+|:---:|:---|
+|&check;| Blog has a button to the Navbar for easy navigation to the page.
+|&check;| The page has articles and news for the site and the products.
+|&check;| The page has a button to go back to the blog spots.
+
+#### **3 - Register & User Accounts:**
+
+|passed | **Register for an account** has my personal details, view my order history.
+|:---:|:---|
+|&check;| The site has a register page.
+|&check;| User can not register with an email address that is already in use.
+|&check;| User can successfully register for the site
+|&check;| User can not register with a username that is already in use.
+|&check;| User can not register with a password similar to their email address.
+|&check;| User can not register with a too short password.
+|&check;| Success message is displayed to the user if registration is successful.
+|&check;| User sees message to verify their email.
+|&check;| User can not login until they have verified their email.
+|&check;| Verification email is sent to the user.
+|&check;| Verification email contains a link to confirm the user's email.
+|&check;| Once verified, user, can login with their username or email.
+
+|passed | **Login or logout at any time** have access my personal account details.
+|:---:|:---|
+|&check;| Log in/out options are visible.
+|&check;| Logged out, personal details is no longer visible.
+|&check;| Logged in, the account options change to reveal a profile link.
+|&check;| User receives a success message when they log in/out.
+
+|passed | **Receive an email confirmation upon registration**. Confirm the registration process worked correctly.
+|:---:|:---|
+|&check;| Email sent upon registration asking for the user to verify their email address.
+
+#### **4 - Searching:**
+
+|passed | **Search the list of available products** To find the most suitable products to suit my needs.
+|:---:|:---|
+|&check;| Search bar is visible at the products page.
+|&check;| Products can be searched by category.
+|&check;| Products can be searched by key words.
+|&check;| Search returns results based on the search term.
+|&check;| Search matches product name and description.
+|&check;| Number of products returned is displayed above the search results.
+
+#### **5 - Purchasing & Checkout:**
+
+|passed | **Select a quantity of a product**.
+|:---:|:---|
+|&check;| The Quantity can be selected on the product detail page.
+|&check;| User can set the quantity selector to 1
+|&check;| User can use the plus and minus buttons to select the quantity.
+|&check;| User cannot add a quantity of 0 to the cart.
+
+|passed | **View items in my bag to be purchased** also I can identify the total ammount of my purchases before checkout.
+|:---:|:---|
+|&check;| The site has a shopping cart page.
+|&check;| Shopping cart page has a list of all the items in the user's cart.
+|&check;| Shopping cart page has a total ammount for all the user cart products.
+|&check;| The shopping cart page has a button to proceed to checkout.
+|&check;| The shopping cart page has a button to remove products from the cart.
+|&check;| The shopping cart page has a button to continue shopping.
+
+|passed | **Enter the payment info** so I can do the checkout quickly.
+|:---:|:---|
+|&check;| The site has a checkout page.
+|&check;| The checkout page has a form to enter the user's payment details.
+|&check;| The checkout page has a form to enter the user's shipping details.
+|&check;| Payments are handled by Stripe.
+|&check;| The checkout page has a button to complete the order.
+|&check;| The checkout page has a button to cancel the order and return the user to the shopping cart.
+
+|passed | **Securely submit the payment details** also make sure my financial info is safe.
+|:---:|:---|
+|&check;| Stripe payment system for the site is used.
+|&check;| Stripe payment system for the site is PCI compliant.
+
+#### **6 - Admin:**
+
+|passed | **Add a product**.
+|:---:|:---|
+|&check;| Product can be added via the admin panel and is visible in the store.
+|&check;| Added items had full functionality of pre-existing products.
+
+|passed | **Edit a product**. Update the details of a product.
+|:---:|:---|
+|&check;| Product can be edited via the admin panel and is visible in the store.
+|&check;| Quick edits can only be made from the front end by superusers.
+
+|passed | **Delete a product**. Remove products that are no longer for sale.
+|:---:|:---|
+|&check;| Product can be deleted via the admin panel and is no longer visible in the store.
+|&check;| Quick delete can only be made from the front end by superusers.
+
+#### **7 - Social Media & Marketing:**
+
+|passed | **Promotional emails**. Promote new products.
+|:---:|:---|
+|&check;| Mailchimp form is in the footerand is visible from all pages.
+|&check;| Mailchimp form has a field to enter the email address.
+|&check;| Mailchimp form has a button to do the submittion with the email address.
+|&check;| Collected email addresses are stored in the mailchimp database.
+
+|passed | **Social media page**. Promote my site and products.
+|:---:|:---|
+|&check;| Facebook page is set up.
+|&check;| Facebook page is linked in the footer.
+
+|passed | .**Increase the search engine ranking**. Increase the number of visitors to my site.
+|:---:|:---|
+|&check;| Each page has a meta description.
+|&check;| Each page has a meta title.
+|&check;| Each page has meta keywords.
+|&check;| Site map done
+|&check;| Robots.txt done
+
+## Unfixed bugs
 
 - No bugs
+
+## Unimplemented features
+
+- Blog page : I would like to do more things at the blog page such as for the admin to
+  insert, update and delete the blog spots.
 
 ## Deployment
 
