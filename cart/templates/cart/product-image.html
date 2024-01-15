@@ -1,5 +1,5 @@
 {% if item.product.image %}
-<img class="img-fluid rounded" src="{{ item.product.image_url }}" alt="{{ item.product.name }}">
+<img class="img-fluid rounded" src="{{ item.product.image_url }}" alt="{{ item.product.name }}" style="max-height: 200px; width: 100%; object-fit: cover;">
 {% else %}
 <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
 {% endif %}
