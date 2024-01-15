@@ -45,6 +45,7 @@
                 class="card-img-top img-fluid"
                 src="{% if product.image_url %}{{ product.image_url }}{% else %}{{ MEDIA_URL }}{{ product.image }}{% endif %}"
                 alt="{{ product.name }}"
+                style="max-height: 200px; width: 100%; object-fit: cover;"
               />
             </a>
             {% else %}
@@ -57,14 +58,17 @@
             </a>
             {% endif %}
             <div class="card-body pb-0">
-              <p class="mb-0">{{ product.name }}</p>
+                <a href="{% url 'product_detail' product.id %}" class="no-decoration">
+                    <p class="mb-0 product-title">{{ product.name }}</p>
+                </a>
             </div>
             <div class="card-footer bg-white pt-0 border-0 text-left">
               <div class="row">
-                <div class="col">
+                <div class="col-sm-6">
                   <p class="lead mb-0 text-left font-weight-bold">
                     €{{ product.price }}
                   </p>
+
                   {% if product.rating %}
                   <small class="text-muted"
                     ><i class="fas fa-star mr-1"></i>{{ product.rating }} /
@@ -74,6 +78,12 @@
                   <small class="text-muted">No Rating</small>
                   {% endif %}
                 </div>
+                <div class="col-sm-6">
+                    <!-- Add to Cart button with cart icon -->
+                    <button type="button" class="btn btn-primary btn-sm ml-0 ">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                </div>              
               </div>
             </div>
           </div>

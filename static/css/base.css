@@ -154,6 +154,12 @@ nav {
     border-color: #3f5a36;
 }
 
+.btn-primary:hover {
+    color: #F5F5DC;
+    background-color: #3e7932;
+    border-color: #3e7932;
+}
+
 /* profile view */
 .control-group {
     margin-bottom: 10px;
@@ -278,7 +284,6 @@ gmp-map {
 
 /* logo font*/
 .logo-font {
-    /* color: #1c3a16; */
     color: #3f5a36;
 }
 
@@ -433,6 +438,10 @@ footer {
 .no-decoration:hover {
     text-decoration: none;
     color: inherit;
+}
+
+.product-title:hover {
+    color:#3e7932;
 }
 
 
