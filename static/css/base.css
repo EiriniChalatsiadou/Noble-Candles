@@ -426,10 +426,15 @@ footer {
  padding-left: 0px;
 }
 
-.messages-header-container tbody tr a{
+.no-decoration {
     text-decoration: none;
     color: inherit;
 }
+.no-decoration:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .messages-header-container tbody tr:hover {
     background-color: #f0f0f0; 
@@ -453,7 +458,6 @@ footer {
 
 /* fixed top navbar only on small */
 @media (max-width: 991px) {
-
     .products-header-container {
         padding-top: 100px;
     }

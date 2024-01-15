@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container   blogpost-header-container mt-4 mb-4">
+   <h1>{{ blogpost.title }}</h1>
+   {% if blogpost.image_url %}
+        <div class="text-center">
+            <img src="{{ blogpost.image_url }}" class="img-fluid my-4" alt="{{ blogpost.title }}" style="max-height: 400px; width: 100%; object-fit: cover;">
+        </div>
+   {% endif %}
+   <p class="lead">{{ blogpost.content|safe }}</p>
+   <p class="text-muted">Published on: <b> {{ blogpost.date_created|date:"F j, Y" }} </b>by <b>{{ blogpost.author.username }}<b></p>
+   <!-- Add a back button to return to the list of blog posts -->
+   <a href="{% url 'all_blogposts' %}" class="btn btn-secondary mt-3">Back to Blog Posts</a>        
+</div>
+{% endblock %}

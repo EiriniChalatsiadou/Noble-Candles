@@ -19,10 +19,10 @@
             <tbody>
                {% for message in messages %}
                <tr>
-                  <td><a href="{% url 'message_delete' message_id=message.id %}"><i class="bi bi-trash"></i></a></td>
-                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.date_received }}</a></td>
-                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.email }}</a></td>
-                  <td><a href="{% url 'message_details' message_id=message.id %}">{{ message.subject }}</a></td>
+                  <td><a href="{% url 'message_delete' message_id=message.id %}" class="no-decoration"><i class="bi bi-trash"></i></a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}" class="no-decoration">{{ message.date_received }}</a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}" class="no-decoration">{{ message.email }}</a></td>
+                  <td><a href="{% url 'message_details' message_id=message.id %}" class="no-decoration">{{ message.subject }}</a></td>
                </tr>
                {% endfor %}
             </tbody>
