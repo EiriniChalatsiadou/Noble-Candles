@@ -15,6 +15,10 @@ The fully deployed project can be accessed at [here](https://noble-candles-9ccec
 
 At the header, you can find the logo with the name of the site and also the Navbar through that you can have an easy navigation to the site.
 ![header](/media/readme/header.png)
+As non-loggged in user the header looks like this:
+![header](/media/readme/header-no-login.png)
+As loggged staff user the header looks like this:
+![header](/media/readme/header-admin-login.png)
 
 ## Homepage
 
