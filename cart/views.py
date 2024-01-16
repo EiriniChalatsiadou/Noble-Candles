@@ -12,7 +12,7 @@ def view_cart(request):
 def add_to_cart(request, item_id):
     """ Add a quantity of the specified product to the shopping cart """
 
-    quantity = int(request.POST.get('quantity',1))
+    quantity = int(request.POST.get('quantity', 1))
     redirect_url = request.POST.get('redirect_url', '/products')
     cart = request.session.get('cart', {})
 
@@ -35,13 +35,13 @@ def adjust_cart(request, item_id):
     if quantity > 0:
         cart[item_id] = quantity
         messages.success(request,
-                            (f'Updated {product.name} '
-                            f'quantity to {cart[item_id]}'))
+                         (f'Updated {product.name} '
+                             f'quantity to {cart[item_id]}'))
     else:
         cart.pop(item_id)
         messages.success(request,
-                            (f'Removed {product.name} '
-                            f'from your cart'))
+                         (f'Removed {product.name} '
+                             f'from your cart'))
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))

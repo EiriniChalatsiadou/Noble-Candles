@@ -11,8 +11,8 @@ class ContactForm(ModelForm):
         model = CustomerMessage
         fields = ('name', 'email', 'subject', 'message')
         widgets = {
-        'message': forms.Textarea(attrs={'rows': 10, 'cols': 25, 'style': 'width:100%'}),
-    }
+            'message': forms.Textarea(attrs={'rows': 10, 'cols': 25, 'style': 'width:100%'}),
+        }
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -32,6 +32,7 @@ class ContactForm(ModelForm):
                 placeholder_text = f'{placeholder_texts[field]} *'
             else:
                 placeholder_text = placeholder_texts[field]
-            self.fields[field].widget.attrs['placeholder'] = placeholder_text  # Fix: 'placeholder' instead of 'placeholder_text'
+            # Fix: 'placeholder' instead of 'placeholder_text'
+            self.fields[field].widget.attrs['placeholder'] = placeholder_text
             self.fields[field].widget.attrs['aria-label'] = placeholder_text
             self.fields[field].label = False

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class CustomerMessage(models.Model):
     """
     Model to store customer messages.

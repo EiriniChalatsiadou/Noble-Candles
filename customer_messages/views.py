@@ -5,13 +5,14 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import CustomerMessage
 
+
 @login_required
 def message_list_view(request):
     # Check if the user is a staff member
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only staff can do that.')
         return redirect(reverse('home'))
-    
+
     # Retrieve all customer messages
     messages_list = CustomerMessage.objects.all()
 
@@ -19,8 +20,9 @@ def message_list_view(request):
     context = {
         'messages': messages_list,
     }
-    
+
     return render(request, 'customer_messages/message_list.html', context)
+
 
 @login_required
 def message_details(request, message_id):
@@ -41,19 +43,20 @@ def message_details(request, message_id):
     }
     return render(request, 'customer_messages/message_details.html', context)
 
+
 @login_required
 def message_delete_view(request, message_id):
     # Check if the user is a staff member
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only staff can do that.')
         return redirect(reverse('home'))
-    
+
     # Retrieve the customer message with the given ID or return a 404 response
     message = get_object_or_404(CustomerMessage, pk=message_id)
-    
+
     # Delete the customer message
     message.delete()
-    
+
     # Notify the user about the successful deletion
     messages.success(request, 'Message deleted!')
 

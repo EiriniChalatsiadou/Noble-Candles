@@ -12,7 +12,8 @@ def index(request):
         form = ContactForm(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()
-            messages.success(request, 'Successfully sent Contact form message!')
+            messages.success(
+                request, 'Successfully sent Contact form message!')
             return redirect('home')
         else:
             messages.error(request,
