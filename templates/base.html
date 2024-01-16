@@ -30,7 +30,7 @@
     {% endblock %}
 
 
-    {% block corecjs %}
+    {% block corejs %}
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -39,9 +39,8 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c8dffb0544.js" crossorigin="anonymous"></script>
     <script src="https://js.stripe.com/v3/"></script>
-    <!-- <script src="{% static 'js/script.js' %}" rel="stylesheet"></script> -->
-        <script async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_5FkMHXWhTUoL4zAOOCZA2WdsSgLxpkM&callback=console.debug&libraries=maps,marker&v=beta">
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_5FkMHXWhTUoL4zAOOCZA2WdsSgLxpkM&callback=console.debug&libraries=maps,marker&v=beta">
             </script>
     {% endblock %}
 
@@ -63,16 +62,16 @@
                 <div class="navbar-collapse collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="/#home">Home</a>
+                            <a class="nav-link scroll-link navbar-custom-collapse" href="/#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll-link" href="/products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="/#about-us">About</a>
+                            <a class="nav-link scroll-link navbar-custom-collapse" href="/#about-us">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="/#contact">Contact</a>
+                            <a class="nav-link scroll-link navbar-custom-collapse" href="/#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll-link" href="/blog">Blog</a>
@@ -195,6 +194,7 @@
             </div>
         </div>
     </footer>
+    <script src="{% static 'js/script.js' %}" type="text/javascript"></script>
 </body>
 
 </html>
