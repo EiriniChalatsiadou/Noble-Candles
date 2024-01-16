@@ -161,7 +161,7 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 - Python No errors were found when passing through the official validator using pycodestyle. Due to pep8online.com still not being online,
   I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle --first <-appname->"
   which I took it from the suggestion in the [documentation](https://pycodestyle.pycqa.org/en/latest/intro.html#features)
-![python](/media/readme/validator-python.png)
+![python](/media/readme/python-tests.png)
 
 ## Manual Testing
 
@@ -293,11 +293,12 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 |passed | **View items in my bag to be purchased** also I can identify the total ammount of my purchases before checkout.
 |:---:|:---|
 |&check;| The site has a shopping cart page.
-|&check;| Shopping cart page has a list of all the items in the user's cart.
-|&check;| Shopping cart page has a total ammount for all the user cart products.
-|&check;| The shopping cart page has a button to proceed to checkout.
-|&check;| The shopping cart page has a button to remove products from the cart.
-|&check;| The shopping cart page has a button to continue shopping.
+|&check;| Cart page has a list of all the items in the user's cart.
+|&check;| Cart page has a total ammount for all the user cart products.
+|&check;| Cart page has the delivery fee and the delivery free 50 euro and over.
+|&check;| Cart page has a button to proceed to checkout.
+|&check;| Cart page has a button to remove products from the cart.
+|&check;| Cart page has a button to continue shopping.
 
 |passed | **Enter the payment info** so I can do the checkout quickly.
 |:---:|:---|
@@ -435,10 +436,6 @@ The project was developed by Agile methodology. The implementation progress was 
 ![jira1](/media/readme/jira1.png)
 ![jira2](/media/readme/jira2.png)
 ![jira3](/media/readme/jira3.png)
-
-## Testing
-
-  The site was tested manually
 
 ## Credits
 
