@@ -3,7 +3,8 @@ from .models import BlogPost
 
 
 class BlogPostMessageAdmin(admin.ModelAdmin):
-    list_display = ('date_created', 'date_updated', 'title', 'content', 'published', 'image_url', 'author')
+    list_display = ('date_created', 'date_updated', 'title',
+                    'content', 'published', 'image_url', 'author')
     ordering = ('date_created',)
 
 
