@@ -153,12 +153,12 @@ This page is working through stripe payments. The owner can see which payments a
 As advised by tutors, I validated Code Institute Python linter, html validator, css validator and Js validator
 
 - HTML No errors were returned when passing through the official W3C validator
-- CSS No errors were found when passing through the official validator
 ![html](/media/readme/validator.html.png)
+- CSS No errors were found when passing through the official validator
 ![css](/media/readme/validator-css.png)
 - JShint No errors were found when passing through the official validator
 ![js](/media/readme/validator-js.png)
-- Python No errors were found when passing through the official validator using pycodestyle. Due to pep8online.com still not being online,
+- Python No errors were found when passing through the official validator using pycodestyle. Due to    pep8online.com still not being online,
   I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle --first <-appname->"
   which I took it from the suggestion in the [documentation](https://pycodestyle.pycqa.org/en/latest/intro.html#features)
 ![python](/media/readme/python-tests.png)
@@ -398,8 +398,12 @@ The Flowchart for my program was created using LucidChart and represents how the
 ![wireframes 1](/media/readme/wireframe-homepage.jpg)
 - At this wireframe you can see the products page with the search bar, also the header and the footer.
 ![wireframes 2](/media/readme/wireframe-products.jpg)
-- At the last wireframe you can see the product details page (image and description and the search bar) with the header and the footer too.
+- At this wireframe you can see the product details page (image and description and the search bar) with the header and the footer too.
 ![wireframes 3](/media/readme/wireframe-product-detail.jpg)
+- At this wireframe you can see the blog page with the header and the footer too.
+![wireframes 4](/media/readme/wireframe-blog.jpg)
+- At the last wireframe you can see the blog page but the individual blog with the header and the footer too.
+![wireframes 5](/media/readme/wireframe-individual-blog.jpg)
 
 ## Facebook
 
