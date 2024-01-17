@@ -367,6 +367,7 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 
 - Blog page : I would like to do more things at the blog page such as for the admin to
   insert, update and delete the blog spots.
+- Staff users add more stock.  
 
 ## Deployment
 
