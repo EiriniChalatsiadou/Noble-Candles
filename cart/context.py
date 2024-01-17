@@ -18,6 +18,7 @@ def cart_contents(request):
         cart_items.append({
             'item_id': item_id,
             'quantity': quantity,
+            'stock_number': product.stock_number,
             'product': product,
         })
 

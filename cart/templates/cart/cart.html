@@ -134,7 +134,24 @@
     // Update quantity on click
     $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
-        form.submit();
+        var input = form.find('.qty_input');
+        var currentValue = parseInt(input.val(), 10);
+        var maxAllowedString = input.attr('max').trim();
+        var maxAllowed = !isNaN(parseInt(maxAllowedString, 10)) ? parseInt(maxAllowedString, 10) : Infinity;
+        var itemId = input.data('item_id');
+
+
+        if (currentValue > maxAllowed) {
+            // Display error message
+            var errorMessage = "Value exceeds maximum allowed";
+            $(`#error-message-${itemId}`).html(errorMessage);
+            alert(errorMessage)
+            e.preventDefault(); // Prevent the form submission
+        } else {
+            // Submit the form if the validation passes
+            form.submit();
+        }
+
     });
 
     // Remove item and reload on click

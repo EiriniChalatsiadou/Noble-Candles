@@ -15,11 +15,34 @@ def add_to_cart(request, item_id):
     quantity = int(request.POST.get('quantity', 1))
     redirect_url = request.POST.get('redirect_url', '/products')
     cart = request.session.get('cart', {})
+    product = get_object_or_404(Product, id=item_id)
+
 
     if item_id in list(cart.keys()):
-        cart[item_id] += quantity
+        updated_quantity = cart[item_id] + quantity
+        if product.stock_number- updated_quantity >= 0:
+            cart[item_id] = updated_quantity
+            messages.success(
+                request,
+                f'Added {quantity} {product.name} to your cart'
+            )
+        else:
+            messages.error(
+                request,
+                f'There is an insufficient quantity of {product.name} \
+                in stock to fulfill this request. Please review the \
+                quantities already in your cart and compare them to \
+                the total available stock.'
+            )
     else:
         cart[item_id] = quantity
+        messages.error(
+                request,
+                f'There is an insufficient quantity of {product.name} \
+                in stock to fulfill this request. Please review the \
+                quantities already in your cart and compare them to \
+                the total available stock.'
+            )
 
     request.session['cart'] = cart
     return redirect(redirect_url)
@@ -33,10 +56,14 @@ def adjust_cart(request, item_id):
     cart = request.session.get('cart', {})
 
     if quantity > 0:
-        cart[item_id] = quantity
-        messages.success(request,
+        if(product.stock_number >= quantity):
+            cart[item_id] = quantity
+            messages.success(request,
                          (f'Updated {product.name} '
                              f'quantity to {cart[item_id]}'))
+        else: 
+            messages.error(request,
+                         (f'Not enough stock for {product.name} '))
     else:
         cart.pop(item_id)
         messages.success(request,
