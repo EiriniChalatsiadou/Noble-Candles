@@ -53,14 +53,16 @@ At this section the user can find articles and news for the site and the product
 ![blog](/media/readme/blog/blog-2.png)
 
 ## Products
-
-Here the user can find all the products. There are two categories Candles and Christmas Candles. Also there is a search bar for easy navigation.
-![products](/media/readme/products.png)
+Here the user can find all the products. There are two categories Candles and Christmas Candles. Also there is a search bar for easy navigation. Also we can see which products are out of stock.
+![products](/media/readme/products-2.png)
 
 ## Product Detail
 
-At this page the user can click the product that desire, the product details, the Quantity, the price and the description. Also has the choice to keep shopping or add to cart.
-![product-detail](/media/readme/product-detail.png)
+At this page the user can click the product that desire, the product details, the Quantity, the price and the description. Also has the choice to keep shopping or add to cart.Finally can see which products are in stock, out of stock and low in stock.
+
+![in stock](/media/readme/product-in-stock.png)
+![out of stock](/media/readme/product-out-of-stock.png)
+![low in stock](/media/readme/product-low-in-stock.png)
 
 ## Login page
 
@@ -157,9 +159,10 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 - CSS No errors were found when passing through the official validator
 ![css](/media/readme/validator-css.png)
 - JShint No errors were found when passing through the official validator
-![js](/media/readme/validator-js.png)
-- Python No errors were found when passing through the official validator using pycodestyle. Due to    pep8online.com still not being online,
-  I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle --first <-appname->"
+![js](/media/readme/validator-jshint.png)
+- Python No errors were found when passing through the official validator using pycodestyle. Due to pep8online.com still not being online,
+  I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle blog cart checkout customer_messages
+  home noble_candles products profiles"
   which I took it from the suggestion in the [documentation](https://pycodestyle.pycqa.org/en/latest/intro.html#features)
 ![python](/media/readme/python-tests.png)
 
@@ -289,6 +292,9 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 |&check;| User can set the quantity selector to 1
 |&check;| User can use the plus and minus buttons to select the quantity.
 |&check;| User cannot add a quantity of 0 to the cart.
+|&check;| User can see if the products are in stock.
+|&check;| User can see if the products are low in stock.
+|&check;| User can see if the products are out of stock.
 
 |passed | **View items in my bag to be purchased** also I can identify the total ammount of my purchases before checkout.
 |:---:|:---|
