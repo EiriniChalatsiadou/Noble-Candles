@@ -1,6 +1,6 @@
 /* here goes the html */
 html {
-    height: 105%;
+    height: 100%;
 }
 
 /* here goes the body */
@@ -9,6 +9,9 @@ body {
     background-size: cover;
     background-position: center;
     opacity: 10;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-info-color {
@@ -319,6 +322,13 @@ gmp-map {
     height: 300px;
 }
 
+.wrapper {
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+    flex:1
+  }
+
 /* here goes the footer css code*/
 
 footer {
@@ -329,6 +339,7 @@ footer {
     z-index: 6;
     display: block;
     font-size: 15px;
+    flex-shrink: 0;
 }
 
 /* color quick link */
@@ -381,7 +392,7 @@ footer {
 .pd_detail,
 .product-container {
     margin-top: 60px;
-    margin-bottom: 250px;
+    /* margin-bottom: 250px; */
 }
 
 
