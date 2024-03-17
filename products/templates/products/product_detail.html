@@ -16,9 +16,7 @@
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-5">
                 {% if product.image %}
-                <a href="{{ product.image_url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{% if product.image_url %}{{ product.image_url }}{% else %}{{ MEDIA_URL }}{{ product.image }}{% endif %}" alt="{{ product.name }}" style="max-height: 700px; width: 100%; object-fit: cover;">
-                </a>
+                <img class="card-img-top img-fluid" src="{% if product.image_url %}{{ product.image_url }}{% else %}{{ MEDIA_URL }}{{ product.image }}{% endif %}" alt="{{ product.name }}" style="max-height: 700px; width: 100%; object-fit: cover;">
                 {% else %}
                 <a href="">
                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
