@@ -7,10 +7,12 @@ class ReviewForm(forms.ModelForm):
         choices=RatingEnum.choices,
         widget=forms.RadioSelect(
             attrs={'class': 'form-check-inline ', 'style': 'list-style:none'},
-            )
         )
+    )
     content = forms.CharField(
-        widget=forms.Textarea(attrs={'class': 'form-control', 'rows': 10, 'maxlength': 1024}),  # Bootstrap textarea styles
+        # Bootstrap textarea styles
+        widget=forms.Textarea(
+            attrs={'class': 'form-control', 'rows': 10, 'maxlength': 1024}),
         label='Please Write Your Review'
     )
 
