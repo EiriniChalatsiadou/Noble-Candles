@@ -80,6 +80,32 @@ body {
     margin-top: 135px;
 }
 
+#btn-review{
+    background-color: #716b6b;
+}
+
+.radio-tag {
+    opacity: 0;
+}
+
+.form-reviews label > i.fas {
+    color: red;
+
+}
+
+.form-reviews label > i.far {
+    color: black;
+    
+}
+
+label {
+    cursor: pointer;
+}
+
+.form-reviews label > i:hover {
+    color: red;
+}
+
 /* logo */
 #logo {
     display: inline;

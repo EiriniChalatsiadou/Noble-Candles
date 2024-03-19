@@ -78,21 +78,50 @@
                             </a>
                             <input type="submit" class="btn btn-primary btn-lg rounded-pill mt-5" value="Add to Cart">
                         </div>
+                        {% if user.is_authenticated %}
+                            <div class="col-12">
+                                <a href="{% url 'add_review' product_id=product.id %}" id="btn-review" class="btn btn-primary btn-lg rounded-pill mt-3">
+                                    <span class="icon">
+                                        <i class="fas fa-pencil-alt mr-2"></i> <!-- Change the icon as needed -->
+                                    </span>
+                                    <span class="text-uppercase">Add Review</span>
+                                </a>
+                            </div>
+                        {% endif %}
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </div>
                     </form>
                 {% else %}
                      <!-- Out-of-stock icon -->
                     <p class="text-danger">Out of stock <i class="fas fa-times-circle"></i></p>
-                    <a href="{% url 'products' %}" class="btn btn-primary btn-lg rounded-pill mt-5">
-                        <span class="icon">
-                            <i class="fas fa-chevron-left mr-2"></i>
-                        </span>
-                        <span class="text-uppercase">Keep Shopping</span>
-                    </a>
+                    <div class="col-12">
+                        <a href="{% url 'products' %}" class="btn btn-primary btn-lg rounded-pill mt-5">
+                            <span class="icon">
+                                <i class="fas fa-chevron-left mr-2"></i>
+                            </span>
+                            <span class="text-uppercase">Keep Shopping</span>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a href="{% url 'add_review' product_id=product.id %}" id="btn-review" class="btn btn-primary btn-lg rounded-pill mt-3">
+                            <span class="icon">
+                                <i class="fas fa-pencil-alt mr-2"></i> <!-- Change the icon as needed -->
+                            </span>
+                            <span class="text-uppercase">Add Review</span>
+                        </a>
+                    </div>
                 {% endif %}
             </div>
         </div>
     </div>
+    <div class="row">
+        
+        
+        <!-- {% if user.is_authenticated and user.id == review.user.user.id %}    EDIT    {% endif %} -->
+
+        <div class="col-12">
+            Reviews
+        </div>
+    </div>   
 </div>
 {% endblock %}
