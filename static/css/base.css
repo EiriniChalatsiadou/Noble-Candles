@@ -120,6 +120,10 @@ label {
     color:red;
 }
 
+.change_review{
+    margin-left:0;
+}
+
 /* logo */
 #logo {
     display: inline;

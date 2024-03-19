@@ -42,3 +42,17 @@ def add_review(request, product_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_review(request, review_id):
+    user_profile = get_object_or_404(UserProfile, user=request.user)
+    # Retrieve the review object
+    review = get_object_or_404(Review, pk=review_id)   
+    product_reviewed_by_user = review_exists_for_product(review.product, user_profile)
+
+    if product_reviewed_by_user:
+        # Delete the review
+        review.delete()
+    
+    return redirect(reverse('product_detail', args=[review.product.id]))
