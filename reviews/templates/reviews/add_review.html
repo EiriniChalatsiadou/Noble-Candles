@@ -49,12 +49,12 @@
         
 
         <section class="col-lg-4 offset-lg-2">
-            <h4>Add Review</h4>
+            <h4>{% if review %}Update{% else %}Add{% endif %} Review</h4>
             <hr>
             {% if reviewed %}
             <p>You have already reviewed this product.</p>
             {% else %}
-                <form action="{% url 'add_review' product.id %}" class="form-reviews" method="POST">
+                <form action="{% if review %}{% url 'edit_review' review.id %}{% else %}{% url 'add_review' product.id %}{% endif %}" class="form-reviews" method="POST">
                     {% csrf_token %}
                     {% for field in form  %}
                         {% if field.name == "rating" %}
@@ -78,7 +78,7 @@
                         <span class="icon">
                             <i class="fas fa-pencil-alt mr-2"></i>
                         </span>
-                        <span class="text-uppercase">Add Review</span>
+                        <span class="text-uppercase">{% if review %}Update{% else %}Add{% endif %} Review</span>
                     </button>
                                         
                 </form>

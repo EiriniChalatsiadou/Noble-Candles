@@ -135,7 +135,7 @@
                                                 <i class="fas fa-star"></i>
                                             {% endfor %}
                                             {% for i in 5|range_filter %}
-                                                {% if i > review.rating %}
+                                                {% if i >= review.rating %}
                                                     <i class="far fa-star"></i>
                                                 {% endif %}
                                             {% endfor %}
@@ -148,7 +148,7 @@
                                     {% if user.is_authenticated and user.id == review.user.user.id %}
                                     <div class="col-12 col-md-3">
                                         <small class="ml-3 change_review">
-                                            <!-- <a href="/reviews/edit/{{ review.id }}/">Edit</a> | -->
+                                            <a href="{% url 'edit_review' review_id=review.id %}">Edit</a> |
                                             <a class="text-danger" href="{% url 'delete_review' review_id=review.id %}">Delete</a>
                                         </small>
                                     </div>

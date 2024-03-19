@@ -45,6 +45,44 @@ def add_review(request, product_id):
 
 
 @login_required
+def edit_review(request, review_id):
+    user_profile = get_object_or_404(UserProfile, user=request.user)
+    # Retrieve the review object
+    review = get_object_or_404(Review, pk=review_id)   
+    product_reviewed_by_user = review_exists_for_product(review.product, user_profile)
+
+    if not product_reviewed_by_user:
+        redirect(reverse('product_detail', args=[review.product.id]))
+    
+    if request.method == 'POST':
+        form = ReviewForm(request.POST, request.FILES, instance=review)
+        if form.is_valid():
+            form.save()
+            product = review.product
+            reviews = Review.objects.all().filter(product=product)
+            messages.success(request, 'Successfully updated review!')
+            return redirect(reverse('product_detail', args=[review.product.id]))
+        else:
+            messages.error(
+                request,
+                'Failed to update review. Please ensure the form is valid.')
+    else:
+        form = ReviewForm(instance=review)
+        messages.info(
+            request, f'You are editing your review for {review.product.name}'
+            )
+
+    template = 'reviews/add_review.html'
+    context = {
+        'form': form,
+        'product': review.product,
+        'review': review,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
 def delete_review(request, review_id):
     user_profile = get_object_or_404(UserProfile, user=request.user)
     # Retrieve the review object
