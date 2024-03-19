@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from profiles.models import UserProfile
 from .models import Review
 from .forms import ReviewForm
@@ -12,7 +13,7 @@ def add_review(request, product_id):
     if request.method == 'POST':
         form = ReviewForm(request.POST)
         if form.is_valid():
-            reviews.create(
+            Review.objects.create(
                 user=user_profile,
                 product=product,
                 rating=request.POST.get('rating'),

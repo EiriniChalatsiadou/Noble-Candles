@@ -20,4 +20,5 @@ class Review(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-       return f"Review by {self.user.username} for {self.product.name}"
+        username = self.user.user.username if self.user else ''
+        return f"Review by {username} for {self.product.name}"

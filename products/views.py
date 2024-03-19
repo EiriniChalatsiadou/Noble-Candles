@@ -3,9 +3,11 @@ from django.contrib import messages
 from django.http import Http404
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
+from profiles.models import UserProfile
 from .models import Product, Category
 from .forms import ProductForm
 from .models import Product
+from reviews.models import Review
 
 
 def all_products(request):
@@ -44,11 +46,21 @@ def product_detail(request, product_id):
 
     try:
         product = get_object_or_404(Product, pk=product_id)
+        user_profile = get_object_or_404(UserProfile, user=request.user)
     except Http404:
         return render(request, '404.html')
 
+    reviews = Review.objects.all().filter(
+        product=product).order_by('-created_at')
+    product_reviewed_by_user = request.user.is_authenticated and Review.objects.all().filter(
+                product=product).filter(user=user_profile.id).exists()
+    
+    print('product_reviewed_by_user', product_reviewed_by_user )
+
     context = {
         'product': product,
+        'reviews': reviews,
+        'product_reviewed_by_user': product_reviewed_by_user
 
     }
     return render(request, 'products/product_detail.html', context)
