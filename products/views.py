@@ -46,14 +46,15 @@ def product_detail(request, product_id):
 
     try:
         product = get_object_or_404(Product, pk=product_id)
-        user_profile = get_object_or_404(UserProfile, user=request.user)
     except Http404:
         return render(request, '404.html')
 
-    reviews = Review.objects.all().filter(
-        product=product).order_by('-created_at')
-
-    product_reviewed_by_user = request.user.is_authenticated and review_exists_for_product(product, user_profile)
+    product_reviewed_by_user = False
+    reviews = None
+    if request.user.is_authenticated:
+        user_profile = get_object_or_404(UserProfile, user=request.user)
+        reviews = Review.objects.all().filter(product=product).order_by('-created_at')
+        product_reviewed_by_user = review_exists_for_product(product, user_profile)
 
     context = {
         'product': product,
