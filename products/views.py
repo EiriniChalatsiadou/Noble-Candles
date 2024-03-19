@@ -7,7 +7,7 @@ from profiles.models import UserProfile
 from .models import Product, Category
 from .forms import ProductForm
 from .models import Product
-from reviews.models import Review
+from reviews.models import Review, review_exists_for_product
 
 
 def all_products(request):
@@ -52,10 +52,8 @@ def product_detail(request, product_id):
 
     reviews = Review.objects.all().filter(
         product=product).order_by('-created_at')
-    product_reviewed_by_user = request.user.is_authenticated and Review.objects.all().filter(
-                product=product).filter(user=user_profile.id).exists()
-    
-    print('product_reviewed_by_user', product_reviewed_by_user )
+
+    product_reviewed_by_user = request.user.is_authenticated and review_exists_for_product(product, user_profile)
 
     context = {
         'product': product,

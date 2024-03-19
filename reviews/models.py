@@ -22,3 +22,6 @@ class Review(models.Model):
     def __str__(self):
         username = self.user.user.username if self.user else ''
         return f"Review by {username} for {self.product.name}"
+
+def review_exists_for_product(product, user_profile):
+    return  Review.objects.all().filter(product=product).filter(user=user_profile.id).exists()

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from profiles.models import UserProfile
-from .models import Review
+from .models import Review, review_exists_for_product
 from .forms import ReviewForm
 from products.models import Product
 
@@ -10,6 +10,10 @@ from products.models import Product
 def add_review(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     user_profile = get_object_or_404(UserProfile, user=request.user)
+    product_reviewed_by_user = review_exists_for_product(product, user_profile)
+    if product_reviewed_by_user:
+        return redirect(reverse('product_detail', args=[product_id]))
+
     if request.method == 'POST':
         form = ReviewForm(request.POST)
         if form.is_valid():
