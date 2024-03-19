@@ -118,50 +118,42 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        
-        
-        <!-- {% if user.is_authenticated and user.id == review.user.user.id %}    EDIT    {% endif %} -->
-
-<!-- Existing Reviews -->
-<div class="mt-5">
-    <h2>Existing Reviews</h2>
-    {% if reviews %}
-        <div class="card">
-            <ul class="list-group list-group-flush">
-                {% for review in reviews %}
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-12 col-md-3">
-                                <p class="mb-0">Rating:</p>
-                                <div class="stars">
-                                    {% for i in review.rating|range_filter %}
-                                        <i class="fas fa-star text-warning"></i>
-                                    {% endfor %}
-                                    {% for i in 5|range_filter %}
-                                        {% if i > review.rating %}
-                                            <i class="far fa-star text-warning"></i>
-                                        {% endif %}
-                                    {% endfor %}
+    <div class="row show-reviews">
+        <!-- Existing Reviews -->
+        <div class="py-5 col-md-6 offset-md-3">
+            <h3>Customer Reviews</h3>
+            {% if reviews %}
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        {% for review in reviews %}
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-3">
+                                        <p class="mb-0">Rating:</p>
+                                        <div class="stars">
+                                            {% for i in review.rating|range_filter %}
+                                                <i class="fas fa-star"></i>
+                                            {% endfor %}
+                                            {% for i in 5|range_filter %}
+                                                {% if i > review.rating %}
+                                                    <i class="far fa-star"></i>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9">
+                                        <p class="mb-0"> {{ review.content }}</p>
+                                        <p class="mb-0">{{ review.user }}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 col-md-9">
-                                <p class="mb-0">Content: {{ review.content }}</p>
-                                <p class="mb-0">Created By: {{ review.user }}</p>
-                            </div>
-                        </div>
-                    </li>
-                {% endfor %}
-            </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% else %}
+                <p>No reviews available for this product.</p>
+            {% endif %}
         </div>
-    {% else %}
-        <p>No reviews available for this product.</p>
-    {% endif %}
-</div>
-
-
-
-
     </div>   
 </div>
 {% endblock %}

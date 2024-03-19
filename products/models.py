@@ -1,4 +1,5 @@
 from django.db import models
+from reviews.models import Review
 
 
 class Category(models.Model):
@@ -19,11 +20,15 @@ class Product(models.Model):
     name = models.CharField(max_length=254)
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
     stock_number = models.IntegerField(default=0)
+
+    @property
+    def rating(self):
+        # Calculate the average rating for the product
+        average_rating = Review.objects.filter(product=self).aggregate(avg_rating=models.Avg('rating'))['avg_rating']
+        return round(average_rating, 1) if average_rating else None
 
     def in_stock(self):
         return self.stock_number > 0

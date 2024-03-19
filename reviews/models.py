@@ -1,5 +1,4 @@
 from django.db import models
-from products.models import Product
 from profiles.models import UserProfile
 from profanity.validators import validate_is_profane
 
@@ -14,7 +13,7 @@ class RatingEnum(models.IntegerChoices):
 class Review(models.Model):
     """ A review model for users to review products """
     user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.ForeignKey('products.Product', on_delete=models.CASCADE)
     rating = models.IntegerField(choices=RatingEnum.choices, default=RatingEnum.ONE)
     content = models.TextField(max_length=1024, validators=[validate_is_profane])
     created_at = models.DateTimeField(auto_now_add=True)

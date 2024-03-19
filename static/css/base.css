@@ -105,6 +105,20 @@ label {
 .form-reviews label > i:hover {
     color: red;
 }
+.card{
+    border: 0 solid rgba(0, 0, 0, .125);
+}
+.list-group-item{
+    background-color: #f2eded;
+}
+
+.show-reviews{
+    background-color: #f2eded;
+}
+
+.list-group-flush .fa-star, .text-muted .fa-star{
+    color:red;
+}
 
 /* logo */
 #logo {

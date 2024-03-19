@@ -1,0 +1,155 @@
+[
+    {
+        "model": "reviews.review",
+        "pk": 1,
+        "fields": {
+            "user": 1,  
+            "product": 9,
+            "rating": 5,
+            "content": "This candle smells amazing!",
+            "created_at": "2024-03-25T10:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "product": 9,
+            "rating": 4,
+            "content": "Good quality candle.",
+            "created_at": "2024-03-26T12:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "product": 9,
+            "rating": 5,
+            "content": "Highly recommend!",
+            "created_at": "2024-03-27T14:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "product": 9,
+            "rating": 3,
+            "content": "Average candle.",
+            "created_at": "2024-03-28T16:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "product": 9,
+            "rating": 2,
+            "content": "Not impressed.",
+            "created_at": "2024-03-29T18:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "product": 10,
+            "rating": 4,
+            "content": "Lovely scent!",
+            "created_at": "2024-03-25T10:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "product": 10,
+            "rating": 5,
+            "content": "Best candle ever!",
+            "created_at": "2024-03-26T12:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "product": 10,
+            "rating": 3,
+            "content": "Okay product.",
+            "created_at": "2024-03-27T14:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "product": 10,
+            "rating": 4,
+            "content": "Nice fragrance.",
+            "created_at": "2024-03-28T16:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "product": 10,
+            "rating": 5,
+            "content": "Absolutely love it!",
+            "created_at": "2024-03-29T18:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "product": 11,
+            "rating": 5,
+            "content": "Great product!",
+            "created_at": "2024-03-25T10:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "product": 11,
+            "rating": 4,
+            "content": "Wonderful scent!",
+            "created_at": "2024-03-26T12:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "product": 11,
+            "rating": 5,
+            "content": "Exceeded my expectations!",
+            "created_at": "2024-03-27T14:00:00Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "product": 11,
+            "rating": 4,
+            "content": "Nice fragrance.",
+            "created_at": "2024-03-28T16:00:00Z"
+        }
+    }]

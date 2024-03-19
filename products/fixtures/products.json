@@ -8,7 +8,6 @@
             "description": "100% natural soya wax candle floral, vetiner sandalwood",
             "price": 15.00,
             "category": 1,
-            "rating": 4.6,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-1.jfif",
             "image": "candle-1.jfif",
             "stock_number": 3
@@ -23,7 +22,6 @@
             "description": "Soy candle hand poured, greenery, pineapple, powder",
             "price": 16.99,
             "category": 1,
-            "rating": 4.5,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-2.jfif",
             "image": "candle-2.jfif",
             "stock_number": 30
@@ -38,7 +36,6 @@
             "description": "Highly fragranced, hazelnut, caramel, vanilla",
             "price": 15.99,
             "category": 1,
-            "rating": 4.3,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-3.jfif",
             "image": "candle-3.jfif",
             "stock_number": 0
@@ -53,7 +50,6 @@
             "description": "Hand pured soya wax",
             "price": 16.00,
             "category": 1,
-            "rating": 4.6,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-4.jfif",
             "image": "candle-4.jfif",
             "stock_number": 19
@@ -68,7 +64,6 @@
             "description": "Vanilla coconut chocolate, burns for up to 45 hours",
             "price": 17.50,
             "category": 1,
-            "rating": 4.4,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-5.jfif",
             "image": "candle-5.jfif",
             "stock_number": 0
@@ -83,7 +78,6 @@
             "description": "cedar and Suede from Public goods",
             "price": 16.50,
             "category": 1,
-            "rating": 4.6,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-6.jfif",
             "image": "candle-6.jfif",
             "stock_number": 9
@@ -98,7 +92,6 @@
             "description": "Luxury Candle",
             "price": 16.00,
             "category": 1,
-            "rating": 4.5,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-7.jfif",
             "image": "candle-7.jfif",
             "stock_number": 1
@@ -113,7 +106,6 @@
             "description": "Lavande and Jasmin",
             "price": 18.00,
             "category": 1,
-            "rating": 4.7,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-8.jfif",
             "image": "candle-8.jfif",
             "stock_number": 4
@@ -128,7 +120,6 @@
             "description": "Luxury soy coconut candle",
             "price": 18.50,
             "category": 1,
-            "rating": 4.4,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-9.jfif",
             "image": "candle-9.jfif",
             "stock_number": 4
@@ -143,7 +134,6 @@
             "description": "Lavender, Sandalwood, Eucalyptus, Cinnamon leaf",
             "price": 16.99,
             "category": 1,
-            "rating": 4.7,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-10.jfif",
             "image": "candle-10.jfif",
             "stock_number": 4
@@ -158,7 +148,6 @@
             "description": "Luxury Eucalyptus Planted",
             "price": 18.00,
             "category": 1,
-            "rating": 4.8,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-11.jfif",
             "image": "candle-11.jfif",
             "stock_number": 4
@@ -173,7 +162,6 @@
             "description": "Fabrication Artisanale Francaise",
             "price": 17.00,
             "category": 1,
-            "rating": 4.5,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-12.jfif",
             "image": "candle-12.jfif",
             "stock_number": 4
@@ -188,7 +176,6 @@
             "description": "Salted Caramel",
             "price": 16.00,
             "category": 1,
-            "rating": 4.7,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/candle-13.jfif",
             "image": "candle-13.jfif"
         }
@@ -202,7 +189,6 @@
             "description": "Customise Christmas Candle",
             "price": 20.00,
             "category": 2,
-            "rating": 4.7,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-1.jfif",
             "image": "candle-1.jfif"
         }
@@ -216,7 +202,6 @@
             "description": "Pine Candle",
             "price": 23.00,
             "category": 2,
-            "rating": 4.6,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-2.jfif",
             "image": "candle-2.jfif",
             "stock_number": 4
@@ -231,7 +216,6 @@
             "description": "Grab a blanket and curl up with your favorite cuddle buddy",
             "price": 24.99,
             "category": 2,
-            "rating": 4.5,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-3.jfif",
             "image": "candle-3.jfif"
         }
@@ -245,7 +229,6 @@
             "description": "Pine and Vanilla Candles",
             "price": 28.99,
             "category": 2,
-            "rating": 4.7,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-4.jfif",
             "image": "candle-4.jfif"
         }
@@ -259,7 +242,6 @@
             "description": "Vanilla Strawberry",
             "price": 26.00,
             "category": 2,
-            "rating": 4.5,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-5.jfif",
             "image": "candle-5.jfif"
         }
@@ -273,7 +255,6 @@
             "description": "Cocoa and Vanilla",
             "price": 25.00,
             "category": 2,
-            "rating": 4.3,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-6.jfif",
             "image": "candle-6.jfif"
         }
@@ -287,7 +268,6 @@
             "description": "Ginger and Orange",
             "price": 27.50,
             "category": 2,
-            "rating": 4.4,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-7.jfif",
             "image": "candle-7.jfif",
             "stock_number": 40
@@ -302,7 +282,6 @@
             "description": "Ginger, Cinnamon",
             "price": 29.00,
             "category": 2,
-            "rating": 4.9,
             "image_url": "https://eirinichalatsiadou-noble-candles.s3-eu-west-1.amazonaws.com/media/products/christmas-candle-8.jpg",
             "image": "candle-8.jpg"
         }
