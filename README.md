@@ -397,7 +397,7 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 ## Flowchart
 
 The Flowchart for my program was created using LucidChart and represents how the project works.
-![flowchart](/media/readme/flowchart.png)
+![flowchart](/media/readme/flowchart_new.png)
 
 ## Wireframes
 
