@@ -58,11 +58,21 @@ Here the user can find all the products. There are two categories Candles and Ch
 
 ## Product Detail
 
-At this page the user can click the product that desire, the product details, the Quantity, the price and the description. Also has the choice to keep shopping or add to cart.Finally can see which products are in stock, out of stock and low in stock.
+At this page the user can click the product that desire, the product details, the Quantity, the price and the description. Also has the choice to keep shopping or add to cart.Finally can see which products are in stock, out of stock and low in stock. 
 
 ![in stock](/media/readme/product-in-stock.png)
 ![out of stock](/media/readme/product-out-of-stock.png)
-![low in stock](/media/readme/product-low-in-stock.png)
+![low in stock](/media/readme/product-low-stock.png)
+
+Also in this page we can see the reviews as well. Logged in users can add a review to a product they haven't reviewed yet. In this case an add review button is displayed, else a notification message that they have reviewed already this product. 
+Logged in users can also edit/delete their review for a product.
+![product reviews](/media/readme/product-details-reviews.png)
+
+## Reviews management
+For adding and editing reviews we have the following pages:
+![add review](/media/readme/add-review.png)
+![update review](/media/readme/update-review.png)
+
 
 ## Login page
 
@@ -160,6 +170,7 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 ![css](/media/readme/validator-css.png)
 - JShint No errors were found when passing through the official validator
 ![js](/media/readme/validator-jshint.png)
+![js](/media/readme/validator-jshint-2.png)
 - Python No errors were found when passing through the official validator using pycodestyle. Due to pep8online.com still not being online,
   I used pycodestyle to check my python code. pycodestyle is a command line installed with pip. I ran the command "pycodestyle blog cart checkout customer_messages
   home noble_candles products profiles"
@@ -204,6 +215,9 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 |&check;| The product details page shows the product description.
 |&check;| The product details page shows the product rating.
 |&check;| The product details page shows the product reviews.
+|&check;| The product details page shows the add product review for logged user.
+|&check;| The product details page shows the edit product review for logged user created the review.
+|&check;| The product details page shows the delete product review for logged user created the review.
 |&check;| The product details page shows the product quantity button.
 |&check;| The product details page shows the product add to cart button.
 |&check;| The product details page has a search bar for easiest navigation for the products.
@@ -361,7 +375,7 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 
 ## Unfixed bugs
 
-- No bugs
+- In edit admin product the image is not displayed properly
 
 ## Unimplemented features
 
@@ -393,6 +407,9 @@ As advised by tutors, I validated Code Institute Python linter, html validator, 
 - Heroku will start building the app
 - The link to the app can be found at the top of the page by clicking "Open app"
 - The fully deployed project can be accessed at [here](https://noble-candles-9ccec49c6b91.herokuapp.com/)
+
+## Confirmation email
+Confirmation email sent example can be see ![here](/media/readme/confirmation-email.png)
 
 ## Flowchart
 

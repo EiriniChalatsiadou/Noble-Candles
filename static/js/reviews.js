@@ -1,9 +1,12 @@
+/* jshint esversion: 6 */
+/* globals $:false */
+
 $('.star').click(function(e) {
     // Select all previous stars before the clicked star
-    prevStars = $(this).parent().prevAll('label').children();
+    let prevStars = $(this).parent().prevAll('label').children();
     
     // Select all stars within the same parent container
-    allStars = $(this).parent().parent().children('label').children();
+    let allStars = $(this).parent().parent().children('label').children();
     
     // Reset all stars to empty (far) stars
     allStars.removeClass('fas').addClass('far');

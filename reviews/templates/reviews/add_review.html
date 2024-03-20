@@ -46,15 +46,13 @@
     </div>
     <div class="row">
         
-        
-
         <section class="col-lg-4 offset-lg-2">
             <h4>{% if review %}Update{% else %}Add{% endif %} Review</h4>
             <hr>
             {% if reviewed %}
             <p>You have already reviewed this product.</p>
             {% else %}
-                <form action="{% if review %}{% url 'edit_review' review.id %}{% else %}{% url 'add_review' product.id %}{% endif %}" class="form-reviews" method="POST">
+                <form id="review-form" action="{% if review %}{% url 'edit_review' review.id %}{% else %}{% url 'add_review' product.id %}{% endif %}" class="form-reviews" method="POST">
                     {% csrf_token %}
                     {% for field in form  %}
                         {% if field.name == "rating" %}

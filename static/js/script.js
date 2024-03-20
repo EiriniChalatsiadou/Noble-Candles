@@ -17,7 +17,7 @@ if (window.location.pathname == "/") {
             map: map,
         });
     };
-    // initMap();
+    initMap();
 }
 $('a.navbar-custom-collapse').click(function () {
     $("#navbarNav").collapse('hide');
